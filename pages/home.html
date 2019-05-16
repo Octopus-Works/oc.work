@@ -18,34 +18,49 @@
 </head>
 
 <style>
+  @font-face {
+    font-family: Hiragino Kaku Gothic Std W8;
+    src: url(/font/hiragino-kaku-gothic-std-w8-maisfontes/hiragino-kaku-gothic-std-w8.otf);
+  }
 
   @font-face {
-  font-family: Hiragino Kaku Gothic Std W8;
-  src: url(/font/hiragino-kaku-gothic-std-w8-maisfontes/hiragino-kaku-gothic-std-w8.otf);
-}
+    font-family: GE SS Two Light;
+    src: url(/font/GE_SS_Two_Light/GE_SS_Two_Light.otf);
+  }
 
-@font-face {
-  font-family: GE SS Two Light;
-  src: url(/font/GE_SS_Two_Light/GE_SS_Two_Light.otf);
-}
-
-*{
-  font-family: Hiragino Kaku Gothic Std W8, GE SS Two Light;
-}
-
+  /*
+  * {
+    font-family: Hiragino Kaku Gothic Std W8, GE SS Two Light;
+  }
+  */
+  .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+      color:snow!important;
+  }
 </style>
 
 <body>
 
-  <!-- Start your project here-->
-  <div style="height: 100vh">
-    <div class="flex-center flex-column">
-
-      <h5 class="animated fadeIn mb-3 custom-secondary-text">مرحبا Hello</h5>
-
+  <nav class="navbar navbar-expand-lg navbar-dark custom-primary">
+    <a class="navbar-brand" href="#"><img src="/img/whitelogo.png" width="150px" height="50px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
     </div>
-  </div>
-  <!-- /Start your project here-->
+  </nav>
+
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
