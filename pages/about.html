@@ -51,39 +51,34 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="list-unstyled navbar-nav mr-auto">
-            <li class="nav-item dropdown ml-4 mb-0">
-              <a class="nav-link d white-text" aria-haspopup="true" aria-expanded="false"> Homepage </a>
+            <li class="nav-item dropdown  ml-4 mb-0">
+              <a class="nav-link d white-text" href="./home.html" aria-haspopup="true" aria-expanded="false"> Home </a>
 
             </li>
-            <li class="nav-item dropdown ml-4">
+            <li class="nav-item  dropdown ml-4">
               <a class="nav-link dropdown-toggle white-text" id="navbarDropdownMenuLink12" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">Sections </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="./software-engineering.html">Software Engineering</a>
                 <a class="dropdown-item" href="./visual-production.html">Visual Proudction</a>
                 <a class="dropdown-item" href="./graphic-design.html">Graphic Design</a>
-                <a class="dropdown-item" href="./architecture.html">Architecture</a>
+                <a class="dropdown-item" href="./architecture.html">Architecture & Interior Design</a>
               </div>
             </li>
-            <li class="nav-item ml-4">
-              <a class="nav-link white-text" href="../pricing/pricing.html" data-offset="90">About Us</a>
-            </li>
-            <li class="nav-item dropdown ml-4">
-              <a class="nav-link dropdown-toggle white-text" id="navbarDropdownMenuLink2" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">Board </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="../pages/about.html">Board Of Directors</a>
-                <a class="dropdown-item" href="../pages/testimonials.html">Chairman Letter</a>
-              </div>
+            <li class="nav-item ml-4 active">
+              <a class="nav-link white-text " href="./about.html" data-offset="90">About Us</a>
             </li>
             <li class="nav-item  ml-4">
-              <a class="nav-link  white-text" aria-haspopup="true" aria-expanded="false">Contact Us </a>
-
+              <a class="nav-link  white-text"
+                 class="dropdown-item" href="./board-of-directiors.html">Board Of Directors</a>
+            </li>
+            <li class="nav-item  ml-4">
+              <a class="nav-link  white-text " aria-haspopup="true" href="./contact-us.html" aria-expanded="false">Contact Us </a>
             </li>
           </ul>
           <!-- Social Icon  -->
           <ul class="navbar-nav nav-flex-icons">
-            <li class="nav-item">
+            <li class="nav-item ml-4">
               <a class="nav-link">
                 <i class="fab fa-facebook-f white-text"></i>
               </a>
@@ -556,10 +551,7 @@
       $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
     });
 
-    $('.navbar-collapse a').on('click', () => {
 
-      $(".navbar-collapse").collapse('hide');
-    });
 
   </script>
 

@@ -33,7 +33,11 @@
     color:var(--text-color)!important;
 }
 
-
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #a31621;
+}
 
 .custom-secondary{
     background-color: var(--secondary)!important;
