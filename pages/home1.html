@@ -5,223 +5,553 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Octopus Works</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="/css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="/css/style.css" rel="stylesheet">
-  <link href="/css/octopus-style.css" rel="stylesheet">
-</head>
-
-<style>
-  @font-face {
-    font-family: Hiragino Kaku Gothic Std W8;
-    src: url(/font/hiragino-kaku-gothic-std-w8-maisfontes/hiragino-kaku-gothic-std-w8.otf);
-  }
-
-  @font-face {
-    font-family: GE SS Two Light;
-    src: url(/font/GE_SS_Two_Light/GE_SS_Two_Light.otf);
-  }
-
-  /*
-  * {
-    font-family: Hiragino Kaku Gothic Std W8, GE SS Two Light;
-  }
-  */
-  .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
-      color:snow!important;
-  }
-</style>
-
-<body>
-
-  <nav class="navbar navbar-expand-lg navbar-dark custom-primary">
-    <a class="navbar-brand" href="#"><img src="/img/whitelogo.png" width="150px" height="50px"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="../css/mdb.min.css" rel="stylesheet">
+
+
   <style>
-    .md-outline.select-wrapper+label {
-      top: .6em !important;
-      z-index: 2 !important;
+
+
+
+    html,
+    body,
+    header,
+    .jarallax {
+      height: 100%;
     }
+
+    @media (max-width: 450px) {
+
+      html,
+      body,
+      header,
+      .intro-3 {
+        height: 820px;
+      }
+    }
+
+    @media (min-width: 451px) and (max-width: 740px) {
+
+      html,
+      body,
+      header,
+      .intro-3 {
+        height: 900px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+
+      html,
+      body,
+      header,
+      .intro-3 {
+        height: 950px;
+      }
+    }
+
+
+
+
+
+ .mask.rgba-gradient {
+    background: -webkit-gradient(linear, 45deg, from(rgba(234, 21, 129, .6)), to(rgba(10, 23, 187, .6)));
+    background: -webkit-linear-gradient(45deg, rgba(234, 21, 129, .6), rgba(10, 23, 187, .6) 100%);
+    background: -o-linear-gradient(45deg, rgba(234, 21, 129, .6), rgba(10, 23, 187, .6) 100%);
+    background: linear-gradient(to 45deg, rgba(234, 21, 129, .6), rgba(10, 23, 187, .6) 100%);
+}
+
+
+
+    .intro-3 {
+      background: no-repeat #ff3f71;
+      background-image: -webkit-linear-gradient(330deg, #ff3c6d, #ffa76d, #ff73bb, #6caafd, #1fe4d4);
+      background-image: -o-linear-gradient(330deg, #ff3c6d, #ffa76d, #ff73bb, #6caafd, #1fe4d4);
+      background-image: linear-gradient(120deg, #ff3c6d, #ffa76d, #ff73bb, #6caafd, #1fe4d4);
+      -webkit-background-size: 800% 400%;
+      background-size: 800% 400%;
+      -webkit-animation-name: introAnimation;
+      animation-name: introAnimation;
+      -webkit-animation-duration: 30s;
+      animation-duration: 30s;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-animation-delay: 0;
+      animation-delay: 0;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+    }
+
+    /*! CSS Used from: Embedded */
+    body,
+    header,
+    .intro-3 {
+      height: 100%;
+    }
+
+    @media (max-width: 450px) {
+
+      body,
+      header,
+      .intro-3 {
+        height: 820px;
+      }
+    }
+
+    @media (min-width: 451px) and (max-width: 740px) {
+
+      body,
+      header,
+      .intro-3 {
+        height: 900px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+
+      body,
+      header,
+      .intro-3 {
+        height: 950px;
+      }
+    }
+
+    *,
+    ::after,
+    ::before {
+      box-sizing: border-box;
+    }
+
+    img {
+      vertical-align: middle;
+      border-style: none;
+    }
+
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .mb-3 {
+      margin-bottom: 1rem !important;
+    }
+
+    @media print {
+
+      *,
+      ::after,
+      ::before {
+        text-shadow: none !important;
+        box-shadow: none !important;
+      }
+
+      img {
+        page-break-inside: avoid;
+      }
+    }
+
+    :disabled {
+      pointer-events: none !important;
+    }
+
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .gallery {
+      -webkit-column-count: 3;
+      column-count: 3;
+      -webkit-column-width: 33%;
+      column-width: 33%;
+    }
+
+    .gallery .pics {
+      -webkit-transition: all 350ms ease;
+      -o-transition: all 350ms ease;
+      transition: all 350ms ease;
+    }
+
+    .gallery .animation {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+
+    @media (max-width:450px) {
+      .gallery {
+        -webkit-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        column-width: 100%;
+      }
+    }
+
+    .streak.streak-md {
+      height: 100%;
+    }
+
+
+
+
+
+
+
+    :disabled {
+      pointer-events: none !important;
+    }
+
+    .icon-area .circle-icon i {
+      -webkit-box-shadow: 0 8px 19px #a31621;
+      box-shadow: 0 8px 19px #a31621;
+      width: 100px;
+      height: 100px;
+      line-height: 1.4;
+      padding: 1.8rem;
+      font-size: 2rem;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      background: #fff;
+    }
+
+    .icon-area .circle-icon i:hover {
+      background: #ebeef9;
+    }
+
   </style>
+
+
+
+
+
+
+  <link href="/css/octopus-style.css" rel="stylesheet">
+
+
 </head>
 
-<body class="coworking-page">
+<body>
 
-  <!-- Main navigation -->
+  <!-- Navigation & Intro -->
   <header>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg scrolling-navbar navbar-light z-depth-0 fixed-top white ml-md-4 mr-md-3">
-      <a class="navbar-brand purple-pastel" href="#">
-        <strong>the <br><span class="font-weight-bold">Place</span><span
-            class="font-weight-bold pink-pastel">.</span></strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
-        aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
-        <ul class="navbar-nav ml-auto text-uppercase smooth-scroll">
-          <li class="nav-item">
-            <a class="nav-link heather-color" href="#about" data-offset="100">
-              <strong>About us</strong>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link heather-color" href="#articles" data-offset="100">
-              <strong>Articles</strong>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link heather-color" href="#offer" data-offset="100">
-              <strong>Memberships</strong>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link heather-color" href="#contact" data-offset="100">
-              <strong>Contact us</strong>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pt-0-1" href="#contact" data-offset="100">
-              <button type="button" class="btn btn-outline-purple-pastel btn-rounded btn-md z-depth-0 m-0 pt-2">Join Us <i class="fas fa-angle-double-right"></i></button>
-            </a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar custom-secondary-trans ">
+      <div class="container">
+
+        <a class="navbar-brand" href="#">
+          <img src="../img/whitelogo.png" height="70">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="list-unstyled navbar-nav mr-auto">
+            <li class="nav-item dropdown active ml-4 mb-0">
+              <a class="nav-link d white-text" href="./home.html" aria-haspopup="true" aria-expanded="false"> Home </a>
+
+            </li>
+            <li class="nav-item dropdown ml-4">
+              <a class="nav-link dropdown-toggle white-text" id="navbarDropdownMenuLink12" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Sections </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./software-engineering.html">Software Engineering</a>
+                <a class="dropdown-item" href="./visual-production.html">Visual Proudction</a>
+                <a class="dropdown-item" href="./graphic-design.html">Graphic Design</a>
+                <a class="dropdown-item" href="./architecture.html">Architecture & Interior Design</a>
+              </div>
+            </li>
+            <li class="nav-item ml-4">
+              <a class="nav-link white-text" href="./about.html" data-offset="90">About Us</a>
+            </li>
+            <li class="nav-item  ml-4">
+              <a class="nav-link  white-text"
+                 class="dropdown-item" href="./board-of-directiors.html">Board Of Directors</a>
+            </li>
+            <li class="nav-item  ml-4">
+              <a class="nav-link  white-text" aria-haspopup="true" href="./contact-us.html" aria-expanded="false">Contact Us </a>
+            </li>
+          </ul>
+          <!-- Social Icon  -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item ml-4">
+              <a class="nav-link">
+                <i class="fab fa-facebook-f white-text"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="fab fa-twitter white-text"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="fab fa-instagram white-text"></i>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
       </div>
     </nav>
-    <!-- Navbar -->
 
-    <!-- Intro -->
-    <section class="view intro">
 
-      <div class="container-fluid">
 
-        <div class="row d-flex justify-content-center align-items-center h-100 mx-md-5">
 
-          <div class="col-lg-4 col-xl-5 col-flex mt-lg-0 pt-lg-4 mt-5 pt-5">
 
-            <h1 class="heading font-weight-bold display-3 mb-4">Hi<span>.</span> <br
-                class="d-block d-md-none d-lg-block d-xl-none">We are <br>the Place</span></h1>
-            <h5 class="subheading mb-xl-4 pb-xl-0 mb-md-3 pb-md-3 mb-4"><strong>Welcome to the Place - a club workplace
-                for entrepreneurs, companies and the creative industry.
-                <br class="d-none d-xl-block">We are the central meeting place in which design, business and ideas
-                coexist in harmony.</strong></h5>
-            <div class="mr-auto">
-              <button type="button" class="btn purple-gradient btn-rounded ml-0">Get in touch</button>
-            </div>
+
+
+
+
+
+
+    <!-- Intro Section -->
+    <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}'
+      style="background-image: url('/img/Octopus.jpg'); background-repeat: no-repeat; background-size: cover; background-position: right right;">
+
+      <div class="mask rgba-gradient">
+
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                    <div class="row">
+            
+                      <div class="col-md-12 col-lg-4 offset-lg-1 text-center text-lg-left white-text mt-5 mt-md-0">
+                        <h1 class="intro-custom-primary-text font-weight-bold mt-sm-5 mt-0 mb-4 wow fadeInLeft"
+                          data-wow-delay="0.3s">Clean Layout
+                          For Your Web</h1>
+                        <h6 class="mb-4 wow fadeInLeft" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Rem repellendus quasi fuga nesciunt dolorum nulla fugiat!</h6>
+            
+                      </div>
+            
+                      <div class="col-md-12 col-lg-6 mt-4 mt-md-0 wow fadeInRight" data-wow-delay="0.3s">
+                        <img src="https://mdbootstrap.com/img/Others/cards32.png" alt="Sample Image" class="img-fluid">
+                      </div>
+            
+                    </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Intro Section -->
+    <!-- <section class="view intro-3">
+      <div class="container h-100 d-flex justify-content-center align-items-center">
+        <div class="row">
+
+          <div class="col-md-12 col-lg-4 offset-lg-1 text-center text-lg-left white-text mt-5 mt-md-0">
+            <h1 class="intro-custom-primary-text font-weight-bold mt-sm-5 mt-0 mb-4 wow fadeInLeft"
+              data-wow-delay="0.3s">Clean Layout
+              For Your Web</h1>
+            <h6 class="mb-4 wow fadeInLeft" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Rem repellendus quasi fuga nesciunt dolorum nulla fugiat!</h6>
 
           </div>
 
-          <div class="col-lg-8 col-xl-7 pt-lg-4">
-
-            <div class="view">
-              <img src="https://mdbootstrap.com/img/illustrations/graphics(2).png" class="img-fluid" alt="smaple image">
-            </div>
-
+          <div class="col-md-12 col-lg-6 mt-4 mt-md-0 wow fadeInRight" data-wow-delay="0.3s">
+            <img src="https://mdbootstrap.com/img/Others/cards32.png" alt="Sample Image" class="img-fluid">
           </div>
 
         </div>
-
       </div>
-
-    </section>
-    <!-- Intro -->
+    </section> -->
 
   </header>
-  <!-- Main navigation -->
+  <!-- Navigation & Intro -->
 
-  <!-- Main layout -->
+  <!-- Main content -->
   <main>
 
     <div class="container">
+
+      <div class="container-fluid light-grey-background">
+        <div class="container py-4">
+
+          <!--Section: Services-->
+          <section id="services" class="mt-3 mb-3 pb-3">
+
+            <!-- Section heading -->
+            <h2 class=" h1-responsive text-center title my-5  pt-4 pb-5 custom-primary-text font-weight-bold wow fadeIn"
+              data-wow-delay="0.2s">
+              <strong>Our services</strong>
+              <hr class="w-25 ">
+            </h2>
+   
+
+            <!-- First row -->
+            <div class="row wow fadeIn" data-wow-delay="0.4s">
+
+              <!-- First column -->
+              <div class="col-md-6 mb-4 text-center">
+
+                <!--Panel-->
+                <div class="card card-body text-left white hoverable">
+                  <p class="font-weight-bold title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                    <i class="fas fa-square custom-primary-text mr-2" aria-hidden="true"></i>
+                    <strong>Web design</strong>
+                  </p>
+                  <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                    cred
+                    nesciunt sapiente earu
+                    proident. Ad vegan excepteur butcher vice lomo leggings.
+                    <p class="font-small font-weight-bold custom-primary-text mx-4 mb-0">
+                      <a>read more</a>
+                    </p>
+                  </p>
+                </div>
+                <!--/.Panel-->
+
+              </div>
+              <!-- /First column -->
+
+              <!-- Second column -->
+              <div class="col-md-6 mb-4 text-center">
+
+                <!--Panel-->
+                <div class="card card-body text-left white hoverable">
+                  <p class="font-weight-bold title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                    <i class="fas fa-square custom-primary-text mr-2" aria-hidden="true"></i>
+                    <strong>Development</strong>
+                  </p>
+                  <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                    cred
+                    nesciunt sapiente earu
+                    proident. Ad vegan excepteur butcher vice lomo leggings.
+                    <p class="font-small font-weight-bold custom-primary-text mx-4 mb-0">
+                      <a>read more</a>
+                    </p>
+                  </p>
+                </div>
+                <!--/.Panel-->
+
+              </div>
+              <!-- /.Second column -->
+
+              <!-- Third column -->
+              <div class="col-md-6 mb-4 text-center">
+
+                <!--Panel-->
+                <div class="card card-body text-left white hoverable">
+                  <p class="font-weight-bold title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                    <i class="fas fa-square custom-primary-text mr-2" aria-hidden="true"></i>
+                    <strong>Branding</strong>
+                  </p>
+                  <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                    cred
+                    nesciunt sapiente earu
+                    proident. Ad vegan excepteur butcher vice lomo leggings.
+                    <p class="font-small font-weight-bold custom-primary-text mx-4 mb-0">
+                      <a>read more</a>
+                    </p>
+                  </p>
+                </div>
+                <!--/.Panel-->
+
+              </div>
+              <!-- /.Third column -->
+
+              <!-- Fourth column -->
+              <div class="col-md-6 mb-4 text-center">
+
+                <!--Panel-->
+                <div class="card card-body text-left white hoverable">
+                  <p class="font-weight-bold title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                    <i class="fas fa-square custom-primary-text mr-2" aria-hidden="true"></i>
+                    <strong>Marketing</strong>
+                  </p>
+                  <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                    cred
+                    nesciunt sapiente earu
+                    proident. Ad vegan excepteur butcher vice lomo leggings.
+                    <p class="font-small font-weight-bold custom-primary-text mx-4 mb-0">
+                      <a>read more</a>
+                    </p>
+                  </p>
+                </div>
+                <!--/.Panel-->
+
+              </div>
+              <!-- /.Fourth column -->
+
+            </div>
+            <!-- /.First row -->
+
+          </section>
+          <!--/Section: Services-->
+
+        </div>
+      </div>
+      <!--Second container-->
+
+      <hr>
+
+      <!-- Section: About 1 -->
+      <section id="about" class="mt-5 mb-5 py-3 wow fadeIn" data-wow-delay="0.2s">
+
+        <!-- Grid row -->
+        <div class="row pt-2 mt-lg-5">
+
+          <!-- Grid column -->
+          <div class="col-lg-6 col-md-12 mb-3 wow fadeIn" data-wow-delay="0.4s">
+            <!-- Image -->
+            <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/macbook.png" class="img-fluid rounded"
+              alt="My photo">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-6 ml-auto col-md-12 wow fadeIn" data-wow-delay="0.4s">
+
+            <!-- Secion heading -->
+            <h2 class="mb-5 custom-primary-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+              <strong>Build your brand with us</strong>
+            </h2>
+
+            <!-- Description -->
+            <p align="justify" class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi
+              soluta ratione quisquam, dicta
+              ab cupiditate iure eaque? Repellendus voluptatum, magni impedit delectus, beatae maxime temporibus
+              maiores quibusdam.</p>
+            <p class="grey-text">
+              <i class="fas fa-long-arrow-alt-right custom-primary-text mr-2" aria-hidden="true"></i> Perferendis iusto
+              sint
+              tempora</p>
+            <p class="grey-text">
+              <i class="fas fa-long-arrow-alt-right custom-primary-text mr-2" aria-hidden="true"></i> Lorem ipsum dolor
+              sit amet
+            </p>
+            <p class="grey-text">
+              <i class="fas fa-long-arrow-alt-right custom-primary-text mr-2" aria-hidden="true"></i> Repellendus
+              voluptatum,
+              magni</p>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </section>
+      <!-- Section: About 1 -->
+
+      <hr>
 
       <!-- Section: About Us -->
       <section id="about" class="mb-5 pb-5">
 
         <!-- Section heading -->
-        <h2 class="h1-responsive font-weight-bold text-center">Why Choose Us</h2>
-        <hr class="hr-pink my-3">
+        <h2 class="h1-responsive custom-primary-text font-weight-bold text-center mt-5">Why Choose Us</h2>
+        <hr class=" w-25 my-3">
         <p class="lead grey-text text-center w-responsive mx-auto mb-5 pb-3">We open the first location of the Place in
           the center of Paris,
           at the junction of Adelaide and Jefferson streets.
@@ -238,19 +568,19 @@
 
               <!-- Grid column -->
               <div class="col-lg-2 col-md-3 col-2">
-                <i class="fas fa-wifi orange-pastel fa-2x"></i>
+                <i class="fas fa-wifi custom-primary-text fa-2x"></i>
               </div>
               <!-- Grid column -->
 
               <!-- Grid column -->
               <div class="col-lg-10 col-md-9 col-10">
-                <h4 class="font-weight-bold orange-pastel">Workplace</h4>
-                <p class="grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                <h4 class="font-weight-bold custom-primary-text ">Workplace</h4>
+                <p class="dark-grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                   doloremque laudantium,
                   totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
                   sunt explicabo.
                   Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                <a class="btn btn-orange-pastel btn-rounded btn-sm">Learn more</a>
+                <a class="btn custom-primary btn-rounded btn-sm">Learn more</a>
               </div>
               <!-- Grid column -->
 
@@ -268,18 +598,18 @@
 
               <!-- Grid column -->
               <div class="col-lg-2 col-md-3 col-2">
-                <i class="fas fa-coffee blue-pastel fa-2x"></i>
+                <i class="fas fa-coffee custom-primary-text fa-2x"></i>
               </div>
               <!-- Grid column -->
 
               <!-- Grid column -->
               <div class="col-lg-10 col-md-9 col-10">
-                <h4 class="font-weight-bold blue-pastel">A meeting place</h4>
-                <p class="grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                <h4 class="font-weight-bold custom-primary-text">A meeting place</h4>
+                <p class="dark-grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
                   adipisci velit,
                   sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem,
                   sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                <a class="btn btn-blue-pastel btn-rounded btn-sm">Learn more</a>
+                <a class="btn custom-primary btn-rounded btn-sm">Learn more</a>
               </div>
               <!-- Grid column -->
 
@@ -297,19 +627,19 @@
 
               <!-- Grid column -->
               <div class="col-lg-2 col-md-3 col-2">
-                <i class="far fa-grin-beam green-pastel fa-2x"></i>
+                <i class="far fa-grin-beam custom-primary-text fa-2x"></i>
               </div>
               <!-- Grid column -->
 
               <!-- Grid column -->
               <div class="col-lg-10 col-md-9 col-10">
-                <h4 class="font-weight-bold green-pastel">We are children-friendly</h4>
-                <p class="grey-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                <h4 class="font-weight-bold custom-primary-text">We are children-friendly</h4>
+                <p class="dark-grey-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                   praesentium
                   voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
                   non provident,
                   similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-                <a class="btn btn-green-pastel btn-rounded btn-sm">Learn more</a>
+                <a class="btn custom-primary btn-rounded btn-sm">Learn more</a>
               </div>
               <!-- Grid column -->
 
@@ -324,2716 +654,494 @@
 
       </section>
       <!-- Section: About Us -->
+      <hr>
 
-      <!-- Section: Offer -->
-      <section id="offer" class="mb-5">
 
-        <!-- Section heading -->
-        <h2 class="h1-responsive font-weight-bold text-center">What You Get</h2>
-        <hr class="hr-pink my-3">
-        <p class="lead grey-text text-center w-responsive mx-auto mb-5 pb-3">Duis aute irure dolor in reprehenderit in
-          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit.</p>
-
-        <!-- Grid row -->
-        <div class="row mb-lg-0 mb-5">
-
-          <!-- Grid column -->
-          <div class="col-lg-6 mb-lg-0 mb-5" style="margin-top: -5.3rem;">
-            <div class="view">
-              <img src="https://mdbootstrap.com/img/illustrations/graphics(3).png" class="img-fluid" alt="smaple image">
-            </div>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-6">
-
-            <!-- Grid row -->
-            <div class="row mb-3">
-              <div class="col-md-1 col-2">
-                <i class="fas fa-book-open purple-pastel fa-2x"></i>
-              </div>
-              <div class="col-md-11 col-10">
-                <h5 class="font-weight-bold purple-pastel mb-2">Desks for any period</h5>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam,
-                  aperiam minima elit assumenda voluptate velit.</p>
-              </div>
-            </div>
-            <!-- Grid row -->
-
-            <!-- Grid row -->
-            <div class="row mb-3">
-              <div class="col-md-1 col-2">
-                <i class="fas fa-wifi green-pastel fa-2x"></i>
-              </div>
-              <div class="col-md-11 col-10">
-                <h5 class="font-weight-bold green-pastel mb-2">Fast Internet</h5>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam,
-                  aperiam minima elit assumenda voluptate velit.</p>
-              </div>
-            </div>
-            <!-- Grid row -->
-
-            <!-- Grid row -->
-            <div class="row">
-              <div class="col-md-1 col-2">
-                <i class="far fa-clock orange-pastel fa-2x"></i>
-              </div>
-              <div class="col-md-11 col-10">
-                <h5 class="font-weight-bold orange-pastel mb-2">Access 24/7</h5>
-                <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores
-                  nam, aperiam minima elit assumenda voluptate velit.</p>
-              </div>
-            </div>
-            <!-- Grid row -->
-
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!-- Grid row -->
-
-        <!-- Grid row -->
-        <div class="row">
-
-          <!-- Grid column -->
-          <div class="col-lg-6">
-
-            <!-- Grid row -->
-            <div class="row mb-3">
-              <div class="col-md-1 col-2">
-                <i class="fas fa-users fa-2x blue-pastel"></i>
-              </div>
-              <div class="col-md-11 col-10">
-                <h5 class="font-weight-bold blue-pastel mb-2">Meeting rooms</h5>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam,
-                  aperiam minima elit assumenda voluptate velit.</p>
-              </div>
-            </div>
-            <!-- Grid row -->
-
-            <!-- Grid row -->
-            <div class="row mb-3">
-              <div class="col-md-1 col-2">
-                <i class="fas fa-gem fa-2x pink-pastel"></i>
-              </div>
-              <div class="col-md-11 col-10">
-                <h5 class="font-weight-bold pink-pastel mb-2">Flexible memberships</h5>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores nam,
-                  aperiam minima elit assumenda voluptate velit.</p>
-              </div>
-            </div>
-            <!-- Grid row -->
-
-            <!-- Grid row -->
-            <div class="row mb-lg-0 mb-5">
-              <div class="col-md-1 col-2">
-                <i class="fas fa-utensils fa-2x navy-blue-color"></i>
-              </div>
-              <div class="col-md-11 col-10">
-                <h5 class="font-weight-bold navy-blue-color mb-2">Kitchenettes</h5>
-                <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing. Reprehenderit maiores
-                  nam, aperiam minima elit assumenda voluptate velit.</p>
-              </div>
-            </div>
-            <!-- Grid row -->
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-6" style="margin-top: -6rem;">
-            <div class="view">
-              <img src="https://mdbootstrap.com/img/illustrations/graphics(4).png" class="img-fluid" alt="smaple image">
-            </div>
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!-- Grid row -->
-
-      </section>
-      <!-- Section: Offer -->
-
-      <!-- Section: Articles -->
-      <section id="articles" class="mb-5 pb-5">
-
-        <!-- Section heading -->
-        <h2 class="h1-responsive font-weight-bold text-center">The Great News</h2>
-        <hr class="hr-pink my-3">
-        <p class="lead grey-text text-center w-responsive mx-auto mb-5 pb-3">Duis aute irure dolor in reprehenderit in
-          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit.</p>
-
-        <!-- Grid row -->
-        <div class="row text-center">
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-            <!--Featured image-->
-            <div class="view overlay rounded z-depth-1">
-              <img src="https://mdbootstrap.com/img/Photos/Others/images/58.jpg" class="img-fluid"
-                alt="Sample project image">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <!--Excerpt-->
-            <div class="card-body pb-0">
-              <h4 class="font-weight-bold my-3">The title of the news</h4>
-              <p class="grey-text">Et harum quidem rerum facilis est et expedita distinctio.
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                placeat facere possimus,
-                omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis
-                debitis aut rerum necessitatibus
-                saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-              </p>
-              <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                  <i class="fab fa-facebook-f blue-pastel"> </i>
-                </a>
-                <!-- Twitter -->
-                <a class="p-2 fa-lg tw-ic">
-                  <i class="fab fa-twitter blue-pastel"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                  <i class="fab fa-instagram blue-pastel"> </i>
-                </a>
-              </ul>
-            </div>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
-            <!--Featured image-->
-            <div class="view overlay rounded z-depth-1">
-              <img src="https://mdbootstrap.com/img/Photos/Others/project4.jpg" class="img-fluid"
-                alt="Sample project image">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <!--Excerpt-->
-            <div class="card-body pb-0">
-              <h4 class="font-weight-bold my-3">The title of the news</h4>
-              <p class="grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                adipisci velit,
-                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-                aliquid ex ea commodi consequatur,
-                quis autem vel eum iure reprehenderit qui in ea voluptate velit?
-              </p>
-              <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                  <i class="fab fa-facebook-f blue-pastel"> </i>
-                </a>
-                <!-- Twitter -->
-                <a class="p-2 fa-lg tw-ic">
-                  <i class="fab fa-twitter blue-pastel"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                  <i class="fab fa-instagram blue-pastel"> </i>
-                </a>
-              </ul>
-            </div>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6">
-            <!--Featured image-->
-            <div class="view overlay rounded z-depth-1">
-              <img src="https://mdbootstrap.com/img/Photos/Others/images/88.jpg" class="img-fluid"
-                alt="Sample project image">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <!--Excerpt-->
-            <div class="card-body pb-0">
-              <h4 class="font-weight-bold my-3">The title of the news</h4>
-              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur proident sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-              <ul class="list-unstyled mb-0">
-                <!-- Facebook -->
-                <a class="p-2 fa-lg fb-ic">
-                  <i class="fab fa-facebook-f blue-pastel"> </i>
-                </a>
-                <!-- Twitter -->
-                <a class="p-2 fa-lg tw-ic">
-                  <i class="fab fa-twitter blue-pastel"> </i>
-                </a>
-                <!-- Instagram -->
-                <a class="p-2 fa-lg ins-ic">
-                  <i class="fab fa-instagram blue-pastel"> </i>
-                </a>
-              </ul>
-            </div>
-          </div>
-          <!-- Grid column -->
-
-      </section>
-      <!-- Section: Articles -->
-
-      <!-- Section: Contact Us -->
-      <section id="contact" class="mb-3">
-
-        <!-- Section heading -->
-        <h2 class="h1-responsive font-weight-bold text-center">Get In Touch</h2>
-        <hr class="hr-pink my-3">
-        <p class="lead grey-text text-center w-responsive mx-auto mb-5 pb-3">Duis aute irure dolor in reprehenderit in
-          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit.</p>
-
-        <!-- Grid row -->
-        <div class="row">
-
-          <!-- Grid column -->
-          <div class="col-lg-5 mb-lg-0 mb-4">
-
-            <p class="text-center purple-pastel ml-lg-5"><strong>Make an appointment to get the best offer</strong></p>
-
-            <!-- Form -->
-            <form class="text-center ml-lg-5">
-
-              <!-- Name -->
-              <div class="md-form md-outline">
-                <input type="text" id="materialContactFormName" class="form-control">
-                <label for="materialContactFormName">Name</label>
-              </div>
-
-              <!-- E-mail -->
-              <div class="md-form md-outline">
-                <input type="email" id="materialContactFormEmail" class="form-control">
-                <label for="materialContactFormEmail">E-mail</label>
-              </div>
-
-              <!--Message-->
-              <div class="md-form md-outline">
-                <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
-                <label for="materialContactFormMessage">Message</label>
-              </div>
-
-              <!-- Send button -->
-              <button class="btn btn-outline-purple-pastel btn-rounded btn-block z-depth-0 mx-0 my-4 waves-effect" type="submit">Send</button>
-
-            </form>
-            <!-- Form -->
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-7" style="margin-top: -7rem;">
-
-            <div class="view">
-              <img src="https://mdbootstrap.com/img/illustrations/graphics(1).png" class="img-fluid" alt="smaple image">
-            </div>
-
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!-- Grid row -->
-
-      </section>
-      <!-- Section: Contact Us -->
 
     </div>
-
-  </main>
-  <!-- Main layout -->
-
-  <!-- Footer -->
-  <footer class="page-footer font-small pt-4 dark-grey-text">
-
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left">
-
-      <!-- Grid row -->
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-md-2 mt-md-0 mt-3">
-
-          <h3 class="mb-3">
-            <a class="brand purple-pastel" href="#">
-              <strong>the <br><span class="font-weight-bold">Place</span><span class="font-weight-bold pink-pastel">.</span>
-              </strong>
-            </a>
-          </h3>
-
-          <p class="mb-1"><strong>Jefferson 5 Street<br>
-          65-987 Paris</strong></p>
-
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none pb-3">
-
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-1 mb-md-0 mb-3">
-
-          <!-- Links -->
-          <ul class="list-unstyled">
-            <li>
-              <a class="dark-grey-text" href="#!">Homepage</a>
-            </li>
-            <li>
-              <a class="dark-grey-text" href="#!">About us</a>
-            </li>
-            <li>
-              <a class="dark-grey-text" href="#!">Memberships</a>
-            </li>
-            <li>
-              <a class="dark-grey-text" href="#!">Articles</a>
-            </li>
-            <li>
-              <a class="dark-grey-text" href="#!">Contact</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-1 mb-md-0 mb-3">
-
-          <!-- Links -->
-          <ul class="list-unstyled">
-            <li>
-              <a class="dark-grey-text" href="#!">Rules</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-1 mb-md-0 mb-3">
-
-          <!-- Links -->
-          <ul class="list-unstyled">
-            <li>
-              <a class="dark-grey-text" href="#!">Cookie Policy</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-1 mb-md-0 mb-3">
-
-          <!-- Links -->
-          <ul class="list-unstyled">
-            <li>
-              <a class="dark-grey-text" href="#!">Facebook</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-1 mb-md-0 mb-3">
-
-          <!-- Links -->
-          <ul class="list-unstyled">
-            <li>
-              <a class="dark-grey-text" href="#!">Instagram</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-        
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-1 mb-md-0 mb-3">
-
-          <!-- Links -->
-          <ul class="list-unstyled">
-            <li>
-              <a class="dark-grey-text" href="#!">Linkedin</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-12 col-lg-4 my-lg-0 my-4">
-
-          <h5 class="mb-4"><strong>If you want to know more about the Place,
-              leave us your email address:</strong></h5>
-
-          <div class="input-group">
-              <input type="text" class="form-control" placeholder="Your e-mail address" aria-label="Recipient's username"
-                aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <span class="input-group-text" id="basic-addon2">Send</span>
-              </div>
-            </div>
-
-        </div>
-        <!-- Grid column -->
-
-      </div>
-      <!-- Grid row -->
-
-    </div>
-    <!-- Footer Links -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3 dark-grey-text">© 2018 Copyright:
-      <a class="text-black-50" href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-
-  </footer>
-  <!-- Footer -->
-
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="../js/jquery-3.4.0.min.js"></script>
-  <!--  Bootstrap tooltips  -->
-  <script type="text/javascript" src="../js/popper.min.js"></script>
-  <!--  Bootstrap core JavaScript  -->
-  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-  <!--  MDB core JavaScript  -->
-  <script type="text/javascript" src="../js/mdb.min.js"></script>
-
-  <!-- Your custom scripts (optional) -->
-  <script type="text/javascript">
-    // Material Select Initialization
-    $(document).ready(function () {
-      $('.mdb-select').materialSelect();
-      $('.select-wrapper.md-form.md-outline input.select-dropdown').bind('focus blur', function () {
-        $(this).closest('.select-outline').find('label').toggleClass('active');
-        $(this).closest('.select-outline').find('.caret').toggleClass('active');
-      });
-    });
-  </script>
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="../css/mdb.min.css" rel="stylesheet">
-
-  <style>
-    html,
-    body,
-    header,
-    .jarallax {
-      height: 100%;
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-        background: #222 !important;
-      }
-
-      .navbar {
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
-      }
-
-    }
-
-  </style>
-
-</head>
-
-<body class="designer">
-
-  <!-- Navigation & Intro -->
-  <header>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-
-      <div class="container">
-
-        <a class="navbar-brand" href="#">Navbar</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-
-          <span class="navbar-toggler-icon"></span>
-
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-          <ul class="navbar-nav mr-auto smooth-scroll">
-
-            <li class="nav-item">
-
-              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-
-            </li>
-
-            <li class="nav-item">
-
-              <a class="nav-link" href="#about" data-offset="100">About Me</a>
-
-            </li>
-
-            <li class="nav-item">
-
-              <a class="nav-link" href="#portfolio" data-offset="90">Portfolio</a>
-
-            </li>
-
-            <li class="nav-item">
-
-              <a class="nav-link" href="#contact" data-offset="100">Contact</a>
-
-            </li>
-
-          </ul>
-
-          <!-- Social Icon  -->
-          <ul class="navbar-nav nav-flex-icons">
-
-            <li class="nav-item">
-
-              <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
-
-            </li>
-
-            <li class="nav-item">
-
-              <a class="nav-link"><i class="fab fa-twitter"></i></a>
-
-            </li>
-
-            <li class="nav-item">
-
-              <a class="nav-link"><i class="fab fa-instagram"></i></a>
-
-            </li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-    </nav>
-
-    <!-- Intro Section -->
-    <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}'
-      style="background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-
-      <div class="mask rgba-gradient">
-
-        <div class="container h-100 d-flex justify-content-center align-items-center">
-
-          <div class="row smooth-scroll">
-
-            <div class="col-md-12">
-
-              <div class="wow fadeInUp text-center">
-
-                <h2 class="display-3 font-weight-bold white-text mb-3">Jessica Brown</h2>
-
-                <h4 class="text-uppercase font-weight-bold white-text">Graphic designer</h4>
-
-                <h2 class=" mt-4 white-text">Welcome to my portfolio!</h2>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </header>
-  <!-- Navigation & Intro -->
-
-  <!-- Main layout -->
-  <main>
-
-    <!-- First container -->
-    <div class="container mt-3">
-
-      <!-- Section About -->
-      <section id="about" class="section mt-1 mb-3">
-
-        <!-- Secion heading -->
-        <h2 class="text-uppercase text-center font-weight-bold my-4 pt-5 wow fadeIn" data-wow-delay="0.2s">About me</h2>
-
-        <hr class="between-sections">
-
-        <!-- First row -->
-        <div class="row pt-5">
-
-          <!-- First column -->
-          <div class="col-lg-5 col-md-12 wow fadeIn" data-wow-delay="0.4s">
-
-            <!-- Secion heading -->
-            <div class="d-flex justify-content-start">
-
-              <h4 class="text-center text-uppercase mb-5 wow fadeIn" data-wow-delay="0.2s">Who <strong>I am</strong>?
-              </h4>
-
-            </div>
-
-            <!-- Description -->
-            <p class="grey-text mb-3" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-
-              animi soluta ratione quisquam, dicta ab cupiditate iure eaque? Repellendus voluptatum, magni impedit
-
-              eaque delectus, beatae maxime temporibus maiores quibusdam quasi.Rem magnam ad perferendis iusto sint
-
-              tempora ea voluptatibus iure, animi excepturi modi aut possimus in hic molestias repellendus illo ullam
-
-              odit quia velit. Rem magnam ad perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi
-
-              aut possimus in hic molestias repellendus illo ullam odit quia velit. Qui expedita sit quo, maxime
-
-              molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-          </div>
-          <!-- First column -->
-
-          <!-- Second column -->
-          <div class="col-lg-6 offset-lg-1 col-md-12 mb-5 wow fadeIn" data-wow-delay="0.4s">
-
-            <!-- Second headind -->
-            <div class="d-flex justify-content-start">
-
-              <h4 class="text-center text-uppercase mb-5 wow fadeIn" data-wow-delay="0.2s">My <strong>Skills</strong>
-              </h4>
-
-            </div>
-
-            <!-- Description -->
-            <p class="black-text text-uppercase font-weight-bold" align="justify">Adobe Photoshop</p>
-
-            <div class="md-progress">
-
-              <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
-                aria-valuemax="100"></div>
-
-            </div>
-
-            <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">Adobe Illustrator</p>
-
-            <div class="md-progress">
-
-              <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0"
-                aria-valuemax="100"></div>
-
-            </div>
-
-            <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">HTML/CSS</p>
-
-            <div class="md-progress">
-
-              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0"
-                aria-valuemax="100"></div>
-
-            </div>
-
-            <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">After Effects</p>
-
-            <div class="md-progress">
-
-              <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0"
-                aria-valuemax="100"></div>
-
-            </div>
-
-          </div>
-          <!-- Second column -->
-
-        </div>
-        <!-- First row -->
-
-      </section>
-      <!-- Section About -->
-
-    </div>
-    <!-- First container -->
-
-    <!-- Second container -->
-    <div class="container mb-5">
-
-      <!-- Secion heading -->
-      <h2 class="text-uppercase text-center font-weight-bold my-4 pt-5 wow fadeIn" data-wow-delay="0.2s">What I do</h2>
-
-      <hr class="between-sections pb-5">
-
-      <!-- First row -->
-      <div class="row  wow fadeIn" data-wow-delay="0.2s">
-
-        <div class="col-lg-3 col-md-6 text-center mt-1">
-
-          <div class="icon-area">
-
-            <a
-              class="btn-floating btn-lg grey darken-1 p-5 mb-4 d-inline-flex justify-content-center align-items-center">
-
-              <i class="fas fa-desktop d-flex justify-content-center"></i>
-
-            </a>
-
-            <h6><strong class="font-weight-bold mb-3 pb-3">WEB DESIGN</strong></h6>
-
-            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-
-          </div>
-
-        </div>
-
-        <div class="col-lg-3 col-md-6 text-center mt-1">
-
-          <div class="icon-area">
-
-            <a
-              class="btn-floating btn-lg grey darken-1 p-5 mb-4 d-inline-flex justify-content-center align-items-center">
-
-              <i class="fas fa-pencil-alt d-flex justify-content-center"></i>
-
-            </a>
-
-            <h6><strong class="font-weight-bold mb-3 pb-3">BRANDING</strong></h6>
-
-            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-
-          </div>
-
-        </div>
-
-        <div class="col-lg-3 col-md-6 text-center mt-1">
-
-          <div class="icon-area">
-
-            <a
-              class="btn-floating btn-lg grey darken-1 p-5 mb-4 d-inline-flex justify-content-center align-items-center">
-
-              <i class="fas fa-paint-brush d-flex justify-content-center"></i>
-
-            </a>
-
-            <h6><strong class="font-weight-bold mb-3 pb-3">PRINT DESIGN</strong></h6>
-
-            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-
-          </div>
-
-        </div>
-
-        <div class="col-lg-3 col-md-6 text-center mt-1">
-
-          <div class="icon-area">
-
-            <a
-              class="btn-floating btn-lg grey darken-1 p-5 mb-4 d-inline-flex justify-content-center align-items-center">
-
-              <i class="fas fa-laptop d-flex justify-content-center"></i>
-
-            </a>
-
-            <h6><strong class="font-weight-bold mb-3 pb-3">UI/UX</strong></h6>
-
-            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-
-          </div>
-
-        </div>
-
-      </div>
-      <!-- First row -->
-
-    </div>
-    <!-- Second container -->
 
     <!-- Streak -->
-    <div class="streak streak-photo streak-md"
-      style="background-image:url('https://mdbootstrap.com/img/Photos/Horizontal/Things/full page/img%20%287%29.jpg')">
-
-      <div class="flex-center mask rgba-gradient">
-
-        <div class="text-center white-text">
-
-          <h3 class="h3-responsive mb-5"><i class="fas fa-quote-left" aria-hidden="true"></i> Lorem ipsum dolor sit
-
-            amet, consectetur adipisicing elit. <i class="fas fa-quote-right" aria-hidden="true"></i></h3>
-
-          <h5 class="text-center font-italic wow fadeIn" data-wow-delay="0.2s">~ Erich Fromm</h5>
-
-        </div>
-
-      </div>
-
-    </div>
-    <!-- Streak -->
-
-    <!-- Projects section v.2 -->
-    <section id="portfolio" class="section mt-2 pb-5 mb-4">
-
-      <div class="container">
-
-        <!-- Section heading -->
-        <div class="row mt-4">
-
-          <div class="col-md-12 ">
-
-            <h2 class="text-uppercase text-center font-weight-bold my-4 pt-5 wow fadeIn" data-wow-delay="0.2s">My
-
-              projects</h2>
-
-            <hr class="between-sections">
-
-            <p class="text-center w-responsive mx-auto mt-5 wow fadeIn" data-wow-delay="0.2s">
-
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum
-
-              dolores reiciendis ad voluptas, animi obcaecati adipisci sapiente mollitia. </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- First column -->
-      <div class="col-md-12 wow fadeIn" data-wow-delay="0.4s">
-
-        <!-- Nav tabs -->
-        <ul class="nav md-pills flex-center flex-wrap mx-0" role="tablist">
-
-          <li class="nav-item">
-
-            <a class="nav-link active font-weight-bold" data-toggle="tab" href="#panel31" role="tab">
-
-              <br>ALL</a>
-
-          </li>
-
-          <li class="nav-item">
-
-            <a class="nav-link font-weight-bold" data-toggle="tab" href="#panel32" role="tab">
-
-              <br>BRANDING</a>
-
-          </li>
-
-          <li class="nav-item">
-
-            <a class="nav-link font-weight-bold" data-toggle="tab" href="#panel33" role="tab">
-
-              <br>PACKAGING</a>
-
-          </li>
-
-          <li class="nav-item">
-
-            <a class="nav-link font-weight-bold" data-toggle="tab" href="#panel34" role="tab">
-
-              <br>PRINT DESIGN</a>
-
-          </li>
-
-        </ul>
-
-      </div>
-
-      <!-- Tab panels -->
-      <div class="tab-content">
-
-        <!-- Panel 1 -->
-        <div class="tab-pane fade show in active" id="panel31" role="tabpanel">
-
-          <br>
-
-          <!-- First row -->
-          <div class="row ml-5 mr-5 mt-2 flex-center">
-
-            <!-- First column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project1.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- First column -->
-
-            <!-- Second column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project8.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Second column -->
-
-            <!-- Third column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project4.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Third column -->
-
-            <!-- Fourth column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project3.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Fourth column -->
-
-          </div>
-          <!-- First row -->
-
-          <!-- Second row -->
-          <div class="row ml-5 mr-5 mt-2 flex-center">
-
-            <!-- First column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project5.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- First column -->
-
-            <!-- Second column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project2.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Second column -->
-
-            <!-- Third column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project6.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Third column -->
-
-            <!-- Fourth column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project7.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Fourth column -->
-
-          </div>
-          <!-- Second row -->
-
-        </div>
-        <!-- Panel 1 -->
-
-        <!-- Panel 2 -->
-        <div class="tab-pane fade" id="panel32" role="tabpanel">
-
-          <br>
-
-          <!-- First row -->
-          <div class="row ml-5 mr-5 mt-2 flex-center">
-
-            <!-- First column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project4.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- First column -->
-
-            <!-- Second column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project5.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Second column -->
-
-            <!-- Third column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project1.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Third column -->
-
-            <!-- Fourth column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project2.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Fourth column -->
-
-          </div>
-          <!-- First row -->
-
-        </div>
-        <!-- Panel 2 -->
-
-        <!-- Panel 3 -->
-        <div class="tab-pane fade" id="panel33" role="tabpanel">
-
-          <br>
-
-          <!-- First row -->
-          <div class="row ml-5 mr-5 mt-2 flex-center">
-
-            <!-- First column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project3.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- First column -->
-
-            <!-- Second column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project6.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Second column -->
-
-            <!-- Third column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project8.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Third column -->
-
-            <!-- First row -->
-          </div>
-
-        </div>
-        <!-- Panel 3 -->
-
-        <!-- Panel 4 -->
-        <div class="tab-pane fade" id="panel34" role="tabpanel">
-
-          <br>
-
-          <!-- First row -->
-          <div class="row ml-5 mr-5 mt-2 flex-center">
-
-            <!-- First column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project1.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- First column -->
-
-            <!-- Second column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project7.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Second column -->
-
-            <!-- Third column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project8.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Third column -->
-
-            <!-- Fourth column -->
-            <div class="col-lg-3 col-md-6">
-
-              <!-- Featured image -->
-              <div class="view overlay zoom z-depth-2">
-
-                <!-- Tab panels -->
-
-                <img src="https://mdbootstrap.com/img/Photos/Others/project2.jpg" class="img-fluid">
-
-              </div>
-
-              <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-4">Lorem ipsum dolor sit
-
-                amet</p>
-
-            </div>
-            <!-- Fourth column -->
-
-          </div>
-          <!-- First row -->
-
-        </div>
-        <!-- Panel 4 -->
-
-      </div>
-      <!-- Tab panels -->
-
-    </section>
-    <!-- Projects section v.2 -->
-
-    <!-- Third container -->
-    <div class="container-fluid" style="background-color: #f3f3f5;">
-
-      <div class="container pt-3 pb-3">
-
-        <!-- Section: Testimonials v.2 -->
-        <section class="section py-5 mb-4">
-
-          <!-- Section heading -->
-          <h2 class="text-uppercase text-center font-weight-bold my-4 wow fadeIn" data-wow-delay="0.2s">Testimonials
-          </h2>
-
-          <hr class="between-sections">
-
-          <!-- Carousel Wrapper -->
-          <div class="wrapper-carousel-fix">
-
-            <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade"
-              data-ride="carousel" data-interval="false">
-
-              <!-- Slides -->
-              <div class="carousel-inner" role="listbox">
-
-                <!-- First slide -->
-                <div class="carousel-item active">
-
-                  <div class="testimonial mt-4 text-center">
-
-                    <!-- Content -->
-                    <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-
-                      eos id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit amet, consectetur
-
-                      adipisicing elit. Dolore cum accusamus eveniet molestias voluptatum inventore laboriosam labore
-
-                      sit, aspernatur praesentium iste impedit quidem.</p>
-
-                    <div class="mt-4">
-
-                      <h5><strong>John Doe</strong></h5>
-
-                      <p>Founder at ET Company</p>
-
-                    </div>
-
-                    <!-- Review -->
-                    <div class="indigo-text">
-
-                      <i class="fas fa-star"> </i>
-
-                      <i class="fas fa-star"> </i>
-
-                      <i class="fas fa-star"> </i>
-
-                      <i class="fas fa-star"> </i>
-
-                      <i class="fas fa-star-half-alt"> </i>
-
-                    </div>
-
-                  </div>
-
-                </div>
-                <!-- First slide -->
-
-                <!-- Second slide -->
-                <div class="carousel-item">
-
-                  <div class="testimonial mt-4 text-center">
-
-                    <!-- Content -->
-                    <p><i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-
-                      odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-
-                      quia non numquam eius modi tempora incidunt. </p>
-
-                    <div class="mt-4">
-
-                      <h5><strong>Maria Kate</strong></h5>
-
-                      <p>Photographer at Studio LA</p>
-
-                    </div>
-
-                    <!-- Review -->
-                    <div class="indigo-text">
-
-                      <i class="fas fa-star"> </i>
-
-                      <i class="fas fa-star"> </i>
-
-                      <i class="fas fa-star"> </i>
-
-                      <i class="fas fa-star"> </i>
-
-                      <i class="fas fa-star"> </i>
-
-                    </div>
-
-                  </div>
-
-                </div>
-                <!-- Second slide -->
-
-                <!-- Third slide -->
-                <div class="carousel-item">
-
-                  <div class="testimonial mt-4 text-center">
-
-                    <!-- Content -->
-                    <p><i class="fas fa-quote-left"></i> Duis aute irure dolor in reprehenderit in voluptate velit esse
-
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-
-                      culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
-
-                      error sit voluptatem accusantium doloremque laudantium.</p>
-
-                    <div class="mt-4">
-
-                      <h5><strong>Anna Deynah</strong></h5>
-
-                      <p>Front-end Developer in NY</p>
-
-                    </div>
-
-                    <!-- Review -->
-                    <div class="indigo-text">
-
-                      <i class="fas fa-star"> </i>
-
-                      <i class="fas fa-star"> </i>
-
-                      <i class="fas fa-star"> </i>
-
-                      <i class="fas fa-star"> </i>
-
-                      <i class="far fa-star"> </i>
-
-                    </div>
-
-                  </div>
-
-                </div>
-                <!-- Third slide -->
-
-              </div>
-              <!-- Slides -->
-
-              <!-- Controls -->
-              <a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button"
-                data-slide="prev">
-
-                <span class="icon-prev" aria-hidden="true"></span>
-
-                <span class="sr-only">Previous</span>
-
-              </a>
-
-              <a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button"
-                data-slide="next">
-
-                <span class="icon-next" aria-hidden="true"></span>
-
-                <span class="sr-only">Next</span>
-
-              </a>
-              <!-- Controls -->
-
-            </div>
-            <!-- Carousel Wrapper -->
-
-          </div>
-
-        </section>
-        <!-- Section: Testimonials v.2 -->
-
-      </div>
-
-    </div>
-
-    <!-- Third container -->
     <div class="container">
 
-      <!-- Contact -->
-      <section id="contact" class="section mb-4">
+      <section class="mt-3 mb-5 pt-1 pb-5">
 
         <!-- Section heading -->
-        <h2 class="text-center text-uppercase font-weight-bold my-4 pt-5 wow fadeIn" data-wow-delay="0.2s">Contact me
+        <h2 class="h1-responsive text-center title my-5 pt-4 pb-4 custom-primary-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+          <strong>Our projects</strong>
         </h2>
 
-        <hr class="between-sections">
+        <!-- Grid row -->
+        <div class="row">
 
-        <!-- Section sescription -->
-        <p class="text-center w-responsive mx-auto my-5 pb-3 wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit
+          <!-- Grid column -->
+          <div class="col-md-12 d-flex justify-content-center mb-5 pb-2">
 
-          amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis
-
-          totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
-
-        <div class="row wow fadeIn" data-wow-delay="0.4s">
-
-          <!-- First column -->
-          <div class="col-md-8 mb-5">
-
-            <form>
-
-              <!-- First row -->
-              <div class="row">
-
-                <!-- First column -->
-                <div class="col-md-6">
-
-                  <div class="md-form mb-0">
-
-                    <div class="md-form mb-0">
-
-                      <input type="text" id="form41" class="form-control">
-
-                      <label for="form41" class="">Your name</label>
-
-                    </div>
-
-                  </div>
-
-                </div>
-
-                <!-- Second column -->
-                <div class="col-md-6">
-
-                  <div class="md-form mb-0">
-
-                    <div class="md-form mb-0">
-
-                      <input type="text" id="form52" class="form-control">
-
-                      <label for="form52" class="">Your email</label>
-
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-              <!-- First row -->
-
-              <!-- Second row -->
-              <div class="row">
-
-                <div class="col-md-12">
-
-                  <div class="md-form mb-0">
-
-                    <input type="text" id="form51" class="form-control">
-
-                    <label for="form51" class="">Subject</label>
-
-                  </div>
-
-                </div>
-
-              </div>
-              <!-- Second row -->
-
-              <!-- Third row -->
-              <div class="row">
-
-                <!-- First column -->
-                <div class="col-md-12">
-
-                  <div class="md-form mb-0">
-
-                    <textarea type="text" id="form76" class="md-textarea form-control" rows="3"></textarea>
-
-                    <label for="form76">Your message</label>
-
-                  </div>
-
-                </div>
-
-              </div>
-              <!-- Third row -->
-
-            </form>
-
-            <div class="text-center text-md-left mt-4">
-
-              <a class="btn btn-secondary btn-rounded">Send</a>
-
-            </div>
+            <button type="button" class="btn btn-rounded custom-primary font-weight-bold waves-effect filter"
+              data-rel="all">All</button>
+            <button type="button" class="btn btn-rounded custom-primary font-weight-bold waves-effect filter"
+              data-rel="1">Branding</button>
+            <button type="button" class="btn btn-rounded custom-primary font-weight-bold waves-effect filter"
+              data-rel="2">web design</button>
 
           </div>
-          <!-- First column -->
-
-          <!-- Second column -->
-          <div class="col-md-4">
-
-            <ul class="contact-icons list-unstyled text-center">
-
-              <li><i class="fas fa-map-marker-alt fa-2x"></i>
-
-                <p>New York, NY 10012, USA</p>
-
-              </li>
-
-              <li><i class="fas fa-phone fa-2x"></i>
-
-                <p>+ 01 234 567 89</p>
-
-              </li>
-
-              <li><i class="fas fa-envelope fa-2x"></i>
-
-                <p>contact@mdbootstrap.com</p>
-
-              </li>
-
-            </ul>
-
-          </div>
-          <!-- Second column -->
+          <!-- Grid column -->
 
         </div>
+        <!-- Grid row -->
+
+        <!-- Grid row -->
+        <div class="gallery" id="gallery">
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 2">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/58.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/7.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/4.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 2">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/63.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 2">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/64.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/5.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
 
       </section>
-      <!-- Section: Contact v.2 -->
+
+      <hr class="mt-5">
+
+
+
+
+
+
 
     </div>
-
-    <!-- Third container -->
-    <div class="container-fluid" style="background-color: #ce51a1;">
-
-      <div class="row py-4">
-
-        <div class="col-md-12 mt-2">
-
-          <!-- Section heading -->
-          <h5 class="text-center white-text mb-2 wow fadeIn" data-wow-delay="0.2s">Duis aute irure dolor in
-
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h5>
-
-        </div>
-
-      </div>
-
-    </div>
-    <!-- Third container -->
-
-  </main>
-  <!-- Main layout -->
-
-  <!-- Scrollspy -->
-  <div class="dotted-scrollspy clearfix d-none d-sm-block">
-
-    <ul class="nav smooth-scroll flex-column">
-
-      <li class="nav-item"><a class="nav-link" href="#home"><span></span></a></li>
-
-      <li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
-
-      <li class="nav-item"><a class="nav-link" href="#portfolio"><span></span></a></li>
-
-      <li class="nav-item"><a class="nav-link" href="#contact"><span></span></a></li>
-
-    </ul>
-
-  </div>
-
-  <!-- Footer -->
-  <footer class="page-footer text-center text-md-left mt-0">
-
-    <!-- Footer Links -->
-    <div class="container mb-2">
-
-      <!-- First row -->
-      <div class="row">
-
-        <!-- First column -->
-        <div class="col-md-12 my-4 wow fadeIn" data-wow-delay="0.3s">
-
-          <div class="footer-socials mt-1 text-center">
-
-            <!-- Facebook -->
-            <a type="button" class="btn-floating btn-secondary"><i class="fab fa-facebook-f"></i></a>
-
-            <!-- Twitter -->
-            <a type="button" class="btn-floating btn-secondary"><i class="fab fa-twitter"></i></a>
-
-            <!-- Pinterest -->
-            <a type="button" class="btn-floating btn-secondary"><i class="fab fa-pinterest-p"></i></a>
-
-            <!-- Youtube -->
-            <a type="button" class="btn-floating btn-secondary"><i class="fab  fa-youtube"></i></a>
-
-            <!-- Instagram -->
-            <a type="button" class="btn-floating btn-secondary"><i class="fab fa-instagram"></i></a>
-
-          </div>
-
-        </div>
-        <!-- First column -->
-
-      </div>
-      <!-- First row -->
-
-    </div>
-    <!-- Footer Links -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright py-3 text-center">
-
-      <div class="container-fluid">
-
-        © 2019 Copyright: <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
-
-      </div>
-
-    </div>
-    <!-- Copyright -->
-
-  </footer>
-  <!-- Footer -->
-
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript " src="../js/jquery-3.4.0.min.js "></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript " src="../js/popper.min.js "></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript " src="../js/bootstrap.min.js "></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript " src="../js/mdb.min.js "></script>
-
-  <script>
-    //Animation init
-    new WOW().init();
-
-    // initialize scrollspy
-    $('body').scrollspy({
-
-      target: '.dotted-scrollspy'
-    });
-
-    // initialize lightbox
-    $(function () {
-
-      $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
-    });
-
-    $('.navbar-collapse a').on('click', () => {
-
-      $(".navbar-collapse").collapse('hide');
-    });
-
-  </script>
-
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="../css/mdb.min.css" rel="stylesheet">
-
-  <style>
-    html,
-    body,
-    header,
-    .jarallax {
-      height: 100%;
-    }
-
-    @media (min-width: 560px) and (max-width: 740px) {
-
-      html,
-      body,
-      header,
-      .jarallax {
-        height: 600px;
-      }
-
-    }
-
-  </style>
-
-</head>
-
-<body class="developer">
-
-  <!-- Navigation & Intro -->
-  <header>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-
-      <div class="container">
-
-        <a class="navbar-brand" href="#">Navbar</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-
-          <span class="navbar-toggler-icon"></span>
-
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-          <ul class="navbar-nav mr-auto smooth-scroll">
-
-            <li class="nav-item">
-
-              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-
-            </li>
-
-            <li class="nav-item">
-
-              <a class="nav-link" href="#about" data-offset="100">About</a>
-
-            </li>
-
-            <li class="nav-item">
-
-              <a class="nav-link" href="#skills" data-offset="100">Skills</a>
-
-            </li>
-
-            <li class="nav-item">
-
-              <a class="nav-link" href="#works" data-offset="100">Works</a>
-
-            </li>
-
-            <li class="nav-item">
-
-              <a class="nav-link" href="#contact" data-offset="100">Contact</a>
-
-            </li>
-
-          </ul>
-
-          <!-- Social Icon  -->
-          <ul class="navbar-nav nav-flex-icons">
-
-            <li class="nav-item">
-
-              <a class="nav-link"><i class="fab fa-facebook-f light-green-text-2"></i></a>
-
-            </li>
-
-            <li class="nav-item">
-
-              <a class="nav-link"><i class="fab fa-twitter light-green-text-2"></i></a>
-
-            </li>
-
-            <li class="nav-item">
-
-              <a class="nav-link"><i class="fab fa-instagram light-green-text-2"></i></a>
-
-            </li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-    </nav>
-
-    <!-- Intro Section -->
-    <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}'
-      style="background-image: url('https://mdbootstrap.com/img/Photos/Others/forest1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-
-      <div class="mask rgba-white-strong">
-
-        <div class="container h-100 d-flex justify-content-center align-items-center">
-
-          <div class="row smooth-scroll">
-
-            <div class="col-md-12 pt-3">
-
-              <div class="white-text text-center pt-5">
-
-                <h1 class="display-2 mb-4 dark-grey-text wow fadeIn">I am <strong>John Doe</strong></h1>
-
-                <h5 class="text-uppercase font-weight-bold wow fadeIn" data-wow-delay="0.4s"><mark>Web developer &
-                    graphic designer</mark></h5>
-
-                <a href="#about" class="btn btn-floating btn-large wow fadeIn" data-wow-delay="0.4s"
-                  data-offset="100"><i class="fas fa-angle-down" aria-hidden="true"></i></a>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </header>
-  <!-- Navigation & Intro -->
-
-  <!-- Main layout -->
-  <main>
-
-    <!-- First container -->
-    <div class="container">
-
-      <!-- Section About -->
-      <section id="about" class="section feature-box mb-5">
-
-        <!-- Section title -->
-        <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">About <strong>me</strong></h2>
-
-        <p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas,
-          animi obcaecati adipisci sapiente mollitia.</p>
-
-        <!-- First row -->
-        <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
-
-          <!-- First column -->
-          <div class="col-md-4 mb-5">
-
-            <!-- Panel -->
-            <div class="card card-body hoverable">
-
-              <i class="fas fa-laptop fa-3x mb-4" aria-hidden="true"></i>
-
-              <h5 class="font-weight-bold text-uppercase mb-4">Freelancer</h5>
-
-              <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-            </div>
-            <!-- Panel -->
-
-          </div>
-          <!-- First column -->
-
-          <!-- Second column -->
-          <div class="col-md-4 mb-5">
-
-            <!-- Panel -->
-            <div class="card card-body yellow hoverable">
-
-              <i class="fas fa-code fa-3x mb-4" aria-hidden="true"></i>
-
-              <h5 class="font-weight-bold text-uppercase mb-4">Developer</h5>
-
-              <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-            </div>
-            <!-- Panel -->
-
-          </div>
-          <!-- Second column -->
-
-          <!-- Third column -->
-          <div class="col-md-4 mb-5">
-
-            <!-- Panel -->
-            <div class="card card-body hoverable">
-
-              <i class="fas fa-pencil-alt fa-3x mb-4" aria-hidden="true"></i>
-
-              <h5 class="font-weight-bold text-uppercase mb-4">Designer</h5>
-
-              <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-            </div>
-            <!-- Panel -->
-
-          </div>
-          <!-- Third column -->
-
-        </div>
-        <!-- First row -->
-
-      </section>
-      <!-- Second section -->
-
-    </div>
-    <!-- First container -->
-
-    <!-- Second container -->
-    <div class="container-fluid" style="background-color: #f3f3f5;">
-
-      <div class="container py-4 pt-4">
-
-        <!-- Second section -->
-        <section id="skills">
-
-          <!-- First row -->
-          <div class="row py-5">
-
-            <!-- First column -->
-            <div class="col-lg-6 col-md-12 mb-3 wow fadeIn" data-wow-delay="0.4s">
-
-              <!-- Section heading -->
-              <div class="d-flex justify-content-start">
-
-                <h4 class="text-center text-uppercase mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">My
-                  <strong>experience</strong></h4>
-
-              </div>
-
-              <!-- Description -->
-              <blockquote class="blockquote bq-warning mb-4">
-
-                <div class="row"> <i class="fas fa-briefcase fa-x mb-1 mr-3 ml-3" aria-hidden="true"></i>
-
-                  <h5 class="font-weight-bold mb-3">Senior developer</h5>
-
-                </div>
-
-                <p class="font-weight-bold ml-1 dark-grey-text mb-2">July, 2013 - Present (4 years)</p>
-
-                <p class="mb-0 ml-1 light-grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-
-              </blockquote>
-
-              <blockquote class="blockquote bq-warning mt-1 mb-4">
-
-                <div class="row"> <i class="fas fa-briefcase fa-x mb-1 mr-3 ml-3" aria-hidden="true"></i>
-
-                  <h5 class="font-weight-bold mb-3">JavaScript developer</h5>
-                </div>
-
-                <p class="font-weight-bold ml-1 dark-grey-text mb-2">March 2011 - June 2012 (1 year, 3 Month)</p>
-
-                <p class="mb-0 ml-1 light-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
-                  quas, eos officia maiores ipsam ipsum dolores. </p>
-
-              </blockquote>
-
-              <blockquote class="blockquote bq-warning">
-
-                <div class="row"> <i class="fas fa-briefcase fa-x mb-1 mr-3 ml-3" aria-hidden="true"></i>
-
-                  <h5 class="font-weight-bold mb-3">Web developer</h5>
-                </div>
-
-                <p class="font-weight-bold ml-1 dark-grey-text mb-2"><strong>March 2005 - May 2011 (6 years, 2
-                    Month)</strong></p>
-
-                <p class="mb-0 ml-1 light-grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit integer
-                  posuere.</p>
-
-              </blockquote>
-
-            </div>
-            <!-- First column -->
-
-            <!-- Second column -->
-            <div class="col-lg-5 offset-lg-1 col-md-12 mb-4 wow fadeIn" data-wow-delay="0.4s">
-
-              <!-- Second heading -->
-              <div class="d-flex justify-content-start">
-
-                <h4 class="text-center text-uppercase mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">Development
-                  <strong>Skills</strong></h4>
-
-              </div>
-
-              <!-- Description -->
-              <p class="black-text text-uppercase font-weight-bold" align="justify">Java Script</p>
-
-              <div class="md-progress">
-
-                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-
-              </div>
-
-              <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">CSS3</p>
-
-              <div class="md-progress">
-
-                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-
-              </div>
-
-              <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">HTML5</p>
-
-              <div class="md-progress">
-
-                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-
-              </div>
-
-              <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">Bootstrap</p>
-
-              <div class="md-progress">
-
-                <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-
-              </div>
-
-              <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">PHP</p>
-
-              <div class="md-progress">
-
-                <div class="progress-bar" role="progressbar" style="width: 53%" aria-valuenow="25" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-
-              </div>
-
-            </div>
-            <!-- Second column -->
-
-          </div>
-          <!-- First row -->
-
-        </section>
-        <!-- Second section -->
-
-      </div>
-
-    </div>
-    <!-- Second container -->
-
-    <!-- Third container -->
-    <div class="container">
-
-      <!-- Section About -->
-      <section class="section feature-box my-5 pb-5">
-
-        <!-- Section title -->
-        <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">Process of
-          <strong>creating</strong></h2>
-
-        <p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s"> Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas,
-          animi obcaecati adipisci sapiente mollitia.</p>
-
-        <!-- Nav tabs -->
-        <ul class="nav md-tabs nav-justified blue" role="tablist">
-
-          <li class="nav-item">
-
-            <a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">01. Research</a>
-
-          </li>
-
-          <li class="nav-item">
-
-            <a class="nav-link" data-toggle="tab" href="#panel2" role="tab">02. Design</a>
-
-          </li>
-
-          <li class="nav-item">
-
-            <a class="nav-link" data-toggle="tab" href="#panel3" role="tab">03. Development</a>
-
-          </li>
-
-        </ul>
-
-        <!-- Tab panels -->
-        <div class="tab-content card">
-
-          <!-- Panel 1 -->
-          <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
-
-            <br>
-
-            <div class="row mt-2">
-
-              <div class="col-2 text-center"> <i class="fas fa-search fa-3x mb-1 grey-text" aria-hidden="true"></i>
-              </div>
-
-              <div class="col-9 mb-2">
-
-                <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam
-                  minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur.
-                  Tempora, placeat ratione porro voluptate odit minima.</p>
-
-              </div>
-
-            </div>
-
-          </div>
-          <!-- Panel 1 -->
-
-          <!-- Panel 2 -->
-          <div class="tab-pane fade" id="panel2" role="tabpanel">
-
-            <br>
-
-            <div class="row mt-2">
-
-              <div class="col-2 text-center"> <i class="fas fa-pencil-alt fa-3x mb-1 grey-text" aria-hidden="true"></i>
-              </div>
-
-              <div class="col-9 mb-2">
-
-                <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam
-                  minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur.
-                  Tempora, placeat ratione porro voluptate odit minima. Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit.</p>
-
-              </div>
-
-            </div>
-
-          </div>
-          <!-- Panel 2 -->
-
-          <!-- Panel 3 -->
-          <div class="tab-pane fade" id="panel3" role="tabpanel">
-
-            <br>
-
-            <div class="row mt-2">
-
-              <div class="col-2 text-center"> <i class="fas fa-code fa-3x mb-1 grey-text" aria-hidden="true"></i> </div>
-
-              <div class="col-9 mb-2">
-
-                <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam
-                  minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur.
-                  Tempora, placeat ratione porro voluptate odit minima. Lorem ipsum dolor sit amet, consectetur
-                  adipisicing elit.</p>
-
-              </div>
-
-            </div>
-
-          </div>
-          <!-- Panel 3 -->
-
-        </div>
-        <!-- Tab panels -->
-
-      </section>
-      <!-- Section -->
-
-    </div>
-    <!-- Third container -->
 
     <!-- Streak -->
-    <div class="streak streak-photo streak-md"
-      style="background-image:url('https://mdbootstrap.com/img/Photos/Horizontal/Work/12-col/img%20%2811%29.jpg')">
 
-      <div class="mask flex-center rgba-indigo-strong">
 
-        <div class="white-text smooth-scroll mx-4">
+    <!-- Second container -->
 
-          <h2 class="h2-responsive wow fadeIn mb-5"><i class="fas fa-quote-left" aria-hidden="true"></i> Design is not
-            just what it looks like and feels like. Design is how it works. <i class="fas fa-quote-right"
-              aria-hidden="true"></i></h2>
-
-          <h5 class="text-center font-italic wow fadeIn" data-wow-delay="0.2s">~ Steve Jobs</h5>
-
-        </div>
-
-      </div>
-
-    </div>
-    <!-- Streak -->
-
-    <!-- Fourth container -->
     <div class="container">
 
-      <!-- Fourth section -->
-      <section id="works" class="section mb-5">
+      <!-- Section: Team v.1 -->
+      <section class="team-section text-center my-5" id="team">
 
-        <!-- Section title -->
-        <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">My <strong>projects</strong>
+        <!-- Section heading -->
+        <h2 class="h1-responsive text-center custom-primary-text my-5  font-weight-bold wow fadeIn"
+          data-wow-delay="0.2s">
+          <strong>True words from our customers</strong>
         </h2>
 
         <!-- Section description -->
-        <p class="text-center w-responsive mx-auto wow fadeIn my-5">Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Quia iste provident, voluptatum voluptatibus aut modi aspernatur autem impedit, eius, debitis earum
-          voluptatem. Quaerat hic aspernatur laborum magni earum. At, officiis!</p>
+        <p class="grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
+          error amet numquam iure provident voluptate
+          esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.
+        </p>
 
-        <!-- First row -->
-        <div class="row wow fadeIn" data-wow-delay="0.4s">
+        <div class="row mt-5 pt-5">
 
-          <!-- First column -->
-          <div class="col-md-12 mb-5">
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-12 mb-5">
 
-            <!-- Lightbox -->
-            <div id="mdb-lightbox-ui"></div>
+            <!-- Card -->
+            <div class="card testimonial-card">
 
-            <div class="mdb-lightbox">
+              <!-- Background color -->
+              <div class="card-up custom-primary-gradient"></div>
 
-              <figure class="col-md-4">
+              <!-- Avatar -->
+              <div class="avatar mx-auto white">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
+                  class="rounded-circle img-responsive">
+              </div>
 
-                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg"
-                    class="img-fluid z-depth-1">
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-4">
-
-                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(66).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(66).jpg"
-                    class="img-fluid z-depth-1">
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-4">
-
-                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(65).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(65).jpg"
-                    class="img-fluid z-depth-1">
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-4">
-
-                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(67).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
-                    class="img-fluid z-depth-1">
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-4">
-
-                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(68).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(68).jpg"
-                    class="img-fluid z-depth-1">
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-4">
-
-                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(64).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(64).jpg"
-                    class="img-fluid z-depth-1">
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-4">
-
-                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(69).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(69).jpg"
-                    class="img-fluid z-depth-1">
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-4">
-
-                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(59).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(59).jpg"
-                    class="img-fluid z-depth-1">
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-4">
-
-                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(70).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(70).jpg"
-                    class="img-fluid z-depth-1">
-
-                </a>
-
-              </figure>
+              <div class="card-body">
+                <!-- Name -->
+                <h4 class="mt-1 custom-primary-text">
+                  <strong>John Doe</strong>
+                </h4>
+                <hr>
+                <!-- Quotation -->
+                <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci.</p>
+              </div>
 
             </div>
-            <!-- Lightbox -->
+            <!-- Card -->
 
           </div>
-          <!-- First column -->
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-12 mb-5">
+
+            <!-- Card -->
+            <div class="card testimonial-card">
+
+              <!-- Background color -->
+              <div class="card-up custom-primary-gradient">
+              </div>
+
+              <!-- Avatar -->
+              <div class="avatar mx-auto white">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
+                  class="rounded-circle img-responsive">
+              </div>
+
+              <div class="card-body">
+                <!-- Name -->
+                <h4 class=" custom-primary-text mt-1">
+                  <strong>Anna Aston</strong>
+                </h4>
+                <hr>
+                <!-- Quotation -->
+                <p class="dark-grey-text">Neque cupiditate assumenda in maiores repudiandae mollitia architecto.</p>
+              </div>
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-12 mb-5">
+
+            <!-- Card -->
+            <div class="card testimonial-card">
+
+              <!-- Background color -->
+              <div class="card-up  custom-primary-gradient"></div>
+
+              <!-- Avatar -->
+              <div class="avatar mx-auto white">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
+                  class="rounded-circle img-responsive">
+              </div>
+
+              <div class="card-body">
+                <!-- Name -->
+                <h4 class="mt-1 ">
+                  <strong>Maria Kate</strong>
+                </h4>
+                <hr>
+                <!-- Quotation -->
+                <p class="dark-grey-text">Delectus impedit saepe officiis ab aliquam repellat, rem totam unde ducimus.
+                </p>
+              </div>
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
 
         </div>
-        <!-- First row -->
 
       </section>
-      <!-- Fourth section -->
-
-      <hr>
+      <!-- Section: Team v.1 -->
 
     </div>
-    <!-- Fourth container -->
 
-    <!-- Contact form -->
-    <div id="contact" class="container">
+<hr>
 
-      <!-- Section: Contact v.2 -->
-      <section class="section contact-section mt-4 mb-5">
+    <!-- Section: Contact v.2 -->
+    <div class="container">
+      <section id="contact" class="text-center my-5">
 
         <!-- Section heading -->
-        <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">Contact <strong>me</strong>
+        <h2 class=" h1-responsive text-center custom-primary-text my-5 dark-grey-text font-weight-bold wow fadeIn"
+          data-wow-delay="0.2s">
+          <strong>Contact us</strong>
         </h2>
 
-        <!-- Section sescription -->
-        <p class="text-center w-responsive mx-auto mb-5 pb-4 wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit
-          amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis
-          totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. </p>
+        <!-- Section description -->
+        <p class="grey-text w-responsive mx-auto mb-5 wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate
+          esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.
+        </p>
 
         <div class="row wow fadeIn" data-wow-delay="0.4s">
 
-          <!-- First column -->
-          <div class="col-md-8 mb-5">
-
+          <!-- Grid column -->
+          <div class="col-md-8 col-lg-9">
             <form>
-
-              <!-- First row -->
+              <!-- Grid row -->
               <div class="row">
-
-                <!-- First column -->
+                <!-- Grid column -->
                 <div class="col-md-6">
-
                   <div class="md-form mb-0">
-
-                    <div class="md-form mb-0">
-
-                      <input type="text" id="form41" class="form-control">
-
-                      <label for="form41" class="">Your name</label>
-
-                    </div>
-
+                    <input type="text" id="form41" class="form-control">
+                    <label for="form41" class="">Your name</label>
                   </div>
-
                 </div>
 
-                <!-- Second column -->
+                <!-- Grid column -->
                 <div class="col-md-6">
-
                   <div class="md-form mb-0">
-
-                    <div class="md-form mb-0">
-
-                      <input type="text" id="form52" class="form-control">
-
-                      <label for="form52" class="">Your email</label>
-
-                    </div>
-
+                    <input type="text" id="form52" class="form-control">
+                    <label for="form52" class="">Your email</label>
                   </div>
-
                 </div>
-
               </div>
-              <!-- First row -->
+              <!-- Grid row -->
 
-              <!-- Second row -->
+              <!-- Grid row -->
               <div class="row">
-
                 <div class="col-md-12">
-
                   <div class="md-form mb-0">
-
                     <input type="text" id="form51" class="form-control">
-
                     <label for="form51" class="">Subject</label>
-
                   </div>
-
                 </div>
-
               </div>
-              <!-- Second row -->
+              <!-- Grid row -->
 
-              <!-- Third row -->
+              <!-- Grid row -->
               <div class="row">
-
-                <!-- First column -->
+                <!-- Grid column -->
                 <div class="col-md-12">
 
                   <div class="md-form mb-0">
-
                     <textarea type="text" id="form76" class="md-textarea form-control" rows="3"></textarea>
-
                     <label for="form76">Your message</label>
-
                   </div>
 
                 </div>
-
               </div>
-              <!-- Third row -->
-
+              <!-- Grid row -->
             </form>
 
-            <div class="text-center text-md-left mt-4"> <a class="btn btn-primary">Send</a> </div>
-
+            <div class="text-center text-md-left mb-5 mt-4">
+              <a class="btn btn-rounded custom-primary font-weight-bold">Send</a>
+            </div>
           </div>
-          <!-- First column -->
+          <!-- Grid column -->
 
-          <!-- Second column -->
-          <div class="col-md-4">
-
-            <ul class="contact-icons list-unstyled text-center">
-
-              <li><i class="fas fa-map-marker-alt fa-2x"></i>
-
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3">
+            <ul class="list-unstyled contact-icons float-md-right">
+              <li>
+                <i class="fas fa-map-marker-alt fa-2x custom-primary-text"></i>
                 <p>New York, NY 10012, USA</p>
-
               </li>
 
-              <li><i class="fas fa-phone fa-2x"></i>
-
+              <li>
+                <i class="fas fa-phone fa-2x custom-primary-text"></i>
                 <p>+ 01 234 567 89</p>
-
               </li>
 
-              <li><i class="fas fa-envelope fa-2x"></i>
-
-                <p>contact@mdbootstrap.com</p>
-
+              <li>
+                <i class="fas fa-envelope fa-2x custom-primary-text"></i>
+                <p>contact@gmail.com</p>
               </li>
-
             </ul>
-
           </div>
-          <!-- Second column -->
+          <!-- Grid column -->
 
         </div>
-
       </section>
       <!-- Section: Contact v.2 -->
 
     </div>
 
-    <!-- Contact form -->
-    <div class="streak1">
+  </main>
+  <!-- Main content -->
 
-      <div class="flex-center">
+  <!-- Footer -->
+  <footer class="page-footer text-center text-md-left custom-secondary pt-0">
 
-        <ul class="list-unstyled">
+    <div class="top-custom-primary-footer">
+      <div class="container">
 
-          <li>
-            <h2 class="h2-responsive mt-5 wow fadeIn">Want an outstanding project?</h2>
-          </li>
+        <!-- Grid row -->
+        <div class="row py-4 d-flex align-items-center">
 
-          <li>
-            <h5 class="h5-responsive wow fadeIn" data-wow-delay="0.2s">Just send me a message!</h5>
-          </li>
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-md-0">
+            <h6 class="mb-4 mb-md-0 white-text">Get connected with us on social networks!</h6>
+          </div>
+          <!-- Grid column -->
 
-        </ul>
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+            <!-- Facebook -->
+            <a class="p-2 m-2 fa-lg fb-ic ml-0">
+              <i class="fab fa-facebook-f white-text mr-lg-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="p-2 m-2 fa-lg tw-ic">
+              <i class="fab fa-twitter white-text mr-lg-4"> </i>
+            </a>
+            <!-- Google + -->
+            <a class="p-2 m-2 fa-lg gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-lg-4"> </i>
+            </a>
+            <!-- Linkedin -->
+            <a class="p-2 m-2 fa-lg li-ic">
+              <i class="fab fa-linkedin-in white-text mr-lg-4"> </i>
+            </a>
+            <!-- Instagram -->
+            <a class="p-2 m-2 fa-lg ins-ic">
+              <i class="fab fa-instagram white-text mr-lg-4"> </i>
+            </a>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
 
       </div>
-
     </div>
-    <!-- Customers carousel -->
 
-  </main>
-  <!-- Main layout -->
+    <!-- Footer Links -->
+    <div class="container mt-5 mb-4 text-center text-md-left">
+      <div class="row mt-3">
 
-  <!-- Scrollspy -->
-  <div class="dotted-scrollspy clearfix d-none d-sm-block">
+        <!-- First column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-5">
+          <h6 class="spacing font-weight-bold">
+            <strong>Company name</strong>
+          </h6>
+          <hr class="custom-primary custom-primary-text mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+        </div>
+        <!-- First column -->
 
-    <ul class="nav smooth-scroll flex-column">
+        <!-- Second column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-5">
+          <h6 class="spacing font-weight-bold">
+            <strong>Products</strong>
+          </h6>
+          <hr class="custom-primary custom-primary-text mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">MDBootstrap</a>
+          </p>
+          <p>
+            <a href="#!">MDWordPress</a>
+          </p>
+          <p>
+            <a href="#!">BrandFlow</a>
+          </p>
+          <p>
+            <a href="#!">Bootstrap Angular</a>
+          </p>
+        </div>
+        <!-- Second column -->
 
-      <li class="nav-item"><a class="nav-link" href="#home"><span></span></a></li>
+        <!-- Third column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-5">
+          <h6 class="spacing font-weight-bold">
+            <strong>Useful links</strong>
+          </h6>
+          <hr class="custom-primary custom-primary-text mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">Your Account</a>
+          </p>
+          <p>
+            <a href="#!">Become an Affiliate</a>
+          </p>
+          <p>
+            <a href="#!">Shipping Rates</a>
+          </p>
+          <p>
+            <a href="#!">Help</a>
+          </p>
+        </div>
+        <!-- Third column -->
 
-      <li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
+        <!-- Fourth column -->
+        <div class="col-md-4 col-lg-3 col-xl-3">
+          <h6 class="spacing font-weight-bold">
+            <strong>Contact</strong>
+          </h6>
+          <hr class="custom-primary custom-primary-text mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          <p>
+            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Fourth column -->
 
-      <li class="nav-item"><a class="nav-link" href="#skills"><span></span></a></li>
+      </div>
+    </div>
+    <!-- Footer Links -->
 
-      <li class="nav-item"><a class="nav-link" href="#works"><span></span></a></li>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      <div class="container-fluid">
+        © 2019 Copyright: <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> <img
+            src="../img/whitelogo.png" height="60">
+      </div>
+    </div>
+    <!-- Copyright -->
 
-      <li class="nav-item"><a class="nav-link" href="#contact"><span></span></a></li>
+  </footer>
+  <!-- Footer -->
 
-    </ul>
-
-  </div>
-  <!-- Scrollspy -->
-
-  <!-- SCRIPTS -->
   <!-- JQuery -->
-  <script type="text/javascript " src="../js/jquery-3.4.0.min.js "></script>
+  <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
   <!-- Bootstrap tooltips -->
-  <script type="text/javascript " src="../js/popper.min.js "></script>
+  <script type="text/javascript" src="../js/popper.min.js"></script>
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript " src="../js/bootstrap.min.js "></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
-  <script type="text/javascript " src="../js/mdb.min.js "></script>
-
+  <script type="text/javascript" src="../js/mdb.min.js"></script>
   <script>
-    // initialize scrollspy
-    $('body').scrollspy({
-
-      target: '.dotted-scrollspy'
-    });
-
-    // initialize lightbox
-    $(function () {
-
-      $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
-    });
-
-    $('.navbar-collapse a').click(function () {
-
-      $(".navbar-collapse").collapse('hide');
-    });
-
-    /* WOW.js init */
+    // Animation init
     new WOW().init();
+
+    // Material Select Initialization
+    $(document).ready(function () {
+      $('.mdb-select').material_select();
+    });
+
+
+    // Gallery
+    $(function () {
+      var selectedClass = "";
+      $(".filter").click(function () {
+        selectedClass = $(this).attr("data-rel");
+        $("#gallery").fadeTo(100, 0.1);
+        $("#gallery div").not("." + selectedClass).fadeOut().removeClass('animation');
+        setTimeout(function () {
+          $("." + selectedClass).fadeIn().addClass('animation');
+          $("#gallery").fadeTo(300, 1);
+        }, 300);
+      });
+    });
 
   </script>
 
