@@ -16,6 +16,50 @@
   <link href="/css/octopus-style.css" rel="stylesheet">
 
   <style>
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-transform-origin: 92.5% 36.3%;
+
+  transform-origin: 92.5% 36.3%;
+
+
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+
+}
+
     html,
     body,
     header,
@@ -30,6 +74,91 @@
       background: linear-gradient(to 45deg, rgba(234, 21, 129, .6), rgba(10, 23, 187, .6) 100%);
     }
 
+
+
+    
+ @media screen and (min-width: 300px) {
+  .img1 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/mobile/it/it.png');
+    }
+    .img2 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/mobile/it/iit.png');
+    }
+    .img3 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/mobile/it/iiit.png');
+    }
+
+    .img4 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/mobile/it/iit.png');
+    }
+    .img5 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/mobile/it/iiit.png');
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+  .img1 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/about us/1.png');
+    }
+    .img2 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/about us/2.png');
+    }
+    .img3 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/about us/3.png');
+    }
+
+    .img4 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/about us/4.png');
+    }
+    .img5 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/about us/5.png');
+    }
+
+
+}
+
+
   </style>
 
 </head>
@@ -41,37 +170,44 @@
     @include('incs.nav')
 
 
-    <!-- Intro Section -->
-    <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}'
-      style="background-image: url('/img/Octopus.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-
-      <div class="mask rgba-gradient">
-
-        <div class="container h-100 d-flex justify-content-center align-items-center">
-
-          <div class="row smooth-scroll">
-
-            <div class="col-md-12">
-
-              <div class="wow fadeInUp text-center">
-
-                <h2 class="display-3 font-weight-bold white-text mb-3"> <strong class="">About  </strong> <br> <strong class="">Octopus Works</strong>  </h2>
-
-
-
-
-              </div>
-
+    <div id="container" class="view jarallax" data-jarallax='{"speed": 0.2}'>
+        <div class="img1 z-depth-2 h-100   wow fadeInRightBig" data-wow-delay="0" >
+          <div class="img2 z-depth-2  h-100   wow fadeInLeftBig"  data-wow-delay="0.5s" > 
+            <div id="" class=" img4  h-100   wow fadeInUpBig" data-wow-delay="1s" >
+                <div id="moveing" class=" img3 moveing h-100   wow fadeInUpBig" data-wow-delay="1s" >
+                    <div id="test" class=" img5 rotating  h-100 " data-wow-delay="1s" >
+                      </div>  
+                </div>
             </div>
-
           </div>
-
+   
         </div>
-
+      <div class="mask ">
+  
+        <div class="container h-100 d-inline-flex  ml-5  align-items-center">
+  
+          <div class="row smooth-scroll">
+  
+           
+            <div class="col-6">
+  
+              <div class="wow fadeInUp ">
+  
+                {{-- <h2 class="display-3 font-weight-bold mt-5 custom-primary-text"> <strong class="">Software  </strong> <br> <strong class="">Engineering</strong>  </h2> --}}
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
       </div>
-
+  
+  
+      
     </div>
-
   </header>
   <!-- Navigation & Intro -->
 
@@ -353,6 +489,44 @@
 
 
   </script>
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js'></script>
+
+
+
+
+
+<script>
+  
+
+
+
+  $("#container").mousemove(function (e) {
+
+    parallaxIt(e, ".moveing", -100);
+  });
+  $( "#container" ).mouseout(function(e) {
+parallaxIt(e, ".moveing", 0)
+
+});
+  function parallaxIt(e, target, movement) {
+    var $this = $("#container");
+    var relX = e.pageX - $this.offset().left;
+    var relY = e.pageY - $this.offset().top;
+
+    TweenMax.to(target, 1, {
+      x: (relX - $this.width() / 2) / $this.width() * movement,
+      y: (relY - $this.height() / 2) / $this.height() * movement
+    });
+  }
+
+  $('#moveing').on("animationend", function () {
+    $("#moveing").removeClass("animated")
+  });
+
+</script>
 
 </body>
 

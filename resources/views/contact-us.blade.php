@@ -209,6 +209,49 @@ h2,h5{font-weight:300;}
 
 
 
+@media screen and (min-width: 300px) {
+  .img1 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/contact us/1.png');
+    }
+    .img2 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/contact us/2.png');
+    }
+
+
+}
+
+@media screen and (min-width: 800px) {
+  .img1 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/contact us/1.png');
+    }
+    .img2 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/contact us/2.png');
+    }
+    
+
+}
+
+
+
+
+
+
 
 
 
@@ -237,22 +280,41 @@ h2,h5{font-weight:300;}
 
 
 
-      <section class="view intro-2" style="background-image: url('/img/Octopus.jpg'); background-repeat: no-repeat; background-size: cover; background-position: right right;">   >
-        <div class="mask">
-            
-          <div class="container h-100 d-flex justify-content-center align-items-center">
-            <div class="row flex-center pt-5 mt-3">
-              <div class="col-md-12 col-lg-6 text-center text-md-left margins">
-
-
-                </div>
-              </div>
-  
-        
+      <div id="container" class="view jarallax" data-jarallax='{"speed": 0.2}'>
+          <div class="img1 z-depth-2 h-100   wow fadeInRightBig" data-wow-delay="0" >
+            <div id="moveing" class="img2 moveing z-depth-1  h-100   wow fadeInLeftBig"  data-wow-delay="0.5s" > 
             </div>
           </div>
+        <div class="mask ">
+    
+          <div class="container h-100 d-inline-flex   align-items-center">
+    
+            <div class="row smooth-scroll">
+    
+             
+              <div class="col-12">
+    
+                <div class="wow fadeInUp ">
+    
+                  <h2 class="display-3 font-weight-bold mt-5 custom-primary-text"> <strong class="white-text">Contact  </strong>  <strong class="white-text">US</strong>  </h2>
+    
+                </div>
+    
+              </div>
+    
+            </div>
+    
+          </div>
+    
         </div>
-      </section>
+
+      </div>
+
+
+
+
+
+
     </header>
     <!--Main Navigation-->
 

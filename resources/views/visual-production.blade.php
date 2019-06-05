@@ -747,143 +747,105 @@
 
         <div class="row text-center wow fadeIn" data-wow-delay="0.4s">
 
-          <div class="col-md-12">
-
-            <div id="mdb-lightbox-ui"></div>
-
-            <div class="mdb-lightbox no-margin">
-
-              <figure class="col-md-3">
-
-                <a href="../img/photo for website/3.jpg" data-size="1600x1067">
-
-                  <img src="../img/photo for website/3.jpg" class="img-fluid" height="154px" width="231px" >
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-3">
-
-                  <a href="../img/photo for website/2.jpg" data-size="1600x1067">
-
-                    <img src="../img/photo for website/2.jpg" class="img-fluid" height="154px" width="231px">
-  
-                </a>
-
-              </figure>
-
-              <figure class="col-md-3">
-
-                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(115).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(115).jpg" class="img-fluid" />
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-3">
-
-                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(113).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(113).jpg" class="img-fluid" />
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-3">
-
-                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(7).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(7).jpg" class="img-fluid" />
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-3">
-
-                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(114).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(114).jpg" class="img-fluid" />
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-3">
-
-                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(110).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(110).jpg" class="img-fluid" />
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-3">
-
-                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(103).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(103).jpg" class="img-fluid" />
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-3">
-
-                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(108).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(108).jpg" class="img-fluid" />
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-3">
-
-                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(109).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(109).jpg" class="img-fluid" />
-
-                </a>
-
-              </figure>
-
-              <figure class="col-md-3">
-
-                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(107).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(107).jpg" class="img-fluid" />
-
-                </a>
-
-              </figure>
-
-
-
-              <figure class="col-md-3">
-
-                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(107).jpg" data-size="1600x1067">
-
-                  <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(107).jpg" class="img-fluid" />
-
-                </a>
-
-              </figure>
-
-            </div>
-
-          </div>
-
+                <div class="col-md-12">
+              
+                  <div id="mdb-lightbox-ui"></div>
+              
+                  <div class="mdb-lightbox">
+              
+                    <figure class="col-md-6">
+                      <a href="../img/photo for website/2.jpg" data-size="1600x1067">
+                        <img alt="picture" src="../img/photo for website/2.jpg" class="img-fluid">
+                      </a>
+                    </figure>
+              
+                    <figure class="col-md-6">
+                      <a href="../img/photo for website/1.jpg" data-size="1600x1067">
+                        <img alt="picture" src="../img/photo for website/1.jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+              
+                    <figure class="col-md-12">
+                      <a href="../img/photo for website/3.jpg" data-size="1600x1067">
+                        <img alt="picture" src="../img/photo for website/3.jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+              
+                    <figure class="col-md-6">
+                      <a href="../img/photo for website/4.jpg" data-size="1600x1067">
+                        <img alt="picture" src="../img/photo for website/4.jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+              
+           
+              
+                    <figure class="col-md-6">
+                      <a href="../img/photo for website/6.jpg" data-size="1600x1067">
+                        <img alt="picture" src="../img/photo for website/6.jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+        
+        
+                    <figure class="col-md-12">
+                      <a href="../img/photo for website/5.jpg" data-size="1600x1067">
+                        <img alt="picture" src="../img/photo for website/5.jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+              
+                    <figure class="col-md-6">
+                      <a href="../img/photo for website/7.jpg" data-size="1600x1067">
+                        <img alt="picture" src="../img/photo for website/7.jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+              
+                    <figure class="col-md-6">
+                      <a href="../img/photo for website/8.jpg" data-size="1600x1067">
+                        <img alt="picture" src="../img/photo for website/8.jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+              
+                    <figure class="col-md-12">
+                      <a href="../img/photo for website/9.jpg" data-size="1600x1067">
+                        <img alt="picture" src="../img/photo for website/9.jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+        
+                    <figure class="col-md-6">
+                      <a href="../img/photo for website/10.jpg" data-size="1600x1067">
+                        <img alt="picture" src="../img/photo for website/10.jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+        
+                    <figure class="col-md-6">
+                      <a href="../img/photo for website/11.jpg" data-size="1600x1067">
+                        <img alt="picture" src="../img/photo for website/11.jpg" class="img-fluid" />
+                      </a>
+                    </figure>
+        
+        
+              
+                  </div>
+              
+                </div>
+              </div>
         </div>
         <!-- First row -->
 
       </section>
       <!-- Third section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <hr class="between-sections">
 

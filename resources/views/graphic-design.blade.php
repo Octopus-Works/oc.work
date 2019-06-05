@@ -530,7 +530,7 @@
 
 
 
-    @media screen and (min-width: 400px) {
+    @media screen and (min-width: 300px) {
       .img1 {
       background-position: center;
       background-repeat: no-repeat;
