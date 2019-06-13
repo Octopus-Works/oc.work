@@ -14,7 +14,9 @@
     <!-- Material Design Bootstrap -->
     <link href="../css/mdb.min.css" rel="stylesheet">
   
-    <link href="/css/octopus-style.css" rel="stylesheet">
+    <link href="../css/octopus-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/dist/lightbox.min.css">
+
 
   <style>
     html,
@@ -115,6 +117,7 @@
       text-rendering: auto;
       line-height: 1;
     }
+
 
     .fa-quote-left:before {
       content: "\f10d";
@@ -591,15 +594,15 @@
               <a
                 class="btn-floating btn-lg custom-primary darken-1 p-5 mb-3 d-inline-flex justify-content-center align-items-center">
 
-                <i class="fas fa-pencil-alt d-flex justify-content-center"></i>
+                <i class="fas fa-building d-flex justify-content-center"></i>
 
               </a>
 
-              <h6><strong class=" font-weight-bold custom-primary-text mb-3 pb-3">PROJECT</strong></h6>
+              <h6><strong class=" font-weight-bold custom-primary-text mb-3 pb-3">Architecture Design</strong></h6>
 
-              <p class="pt-3 blue-custom-primary-text mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
-                amet
-                numquam iure provident.</p>
+              <p class="pt-3 blue-custom-primary-text mt-3">Octopus Works strategizes with both, the process and the materials
+                of planning designing and constructing buildings
+              </p>
 
             </div>
 
@@ -612,15 +615,15 @@
               <a
                 class="btn-floating btn-lg custom-primary darken-1 p-5 mb-3 d-inline-flex justify-content-center align-items-center">
 
-                <i class="fas fa-home d-flex justify-content-center"></i>
+                <i class="fas fa-brush d-flex justify-content-center"></i>
 
               </a>
 
-              <h6><strong class=" font-weight-bold custom-primary-text mb-3 pb-3">CONSTRUCTION</strong></h6>
+              <h6><strong class=" font-weight-bold custom-primary-text mb-3 pb-3">Landscape and Site plan design</strong></h6>
 
-              <p class="pt-3 blue-custom-primary-text mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
-                amet
-                numquam iure provident.</p>
+              <p class="pt-3 blue-custom-primary-text mt-3">
+                Octopus thoughts about building the future, not just a structure.
+              </p>
 
             </div>
 
@@ -637,11 +640,11 @@
 
               </a>
 
-              <h6><strong class=" font-weight-bold custom-primary-text mb-3 pb-3">DESIGN</strong></h6>
+              <h6><strong class=" font-weight-bold custom-primary-text mb-3 pb-3">Sustainable design</strong></h6>
 
-              <p class="pt-3 blue-custom-primary-text mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
-                amet
-                numquam iure provident.</p>
+              <p class="pt-3 blue-custom-primary-text mt-3">
+                Octopus wokrs looks forward for a long term impact to the environment therefore we build a future not just a structure.
+              </p>
 
             </div>
 
@@ -654,15 +657,16 @@
               <a
                 class="btn-floating btn-lg custom-primary darken-1 p-5 mb-3 d-inline-flex justify-content-center align-items-center">
 
-                <i class="fas fa-laptop d-flex justify-content-center"></i>
+                <i class="fas fa-wrench d-flex justify-content-center"></i>
 
               </a>
 
-              <h6><strong class=" font-weight-bold custom-primary-text mb-3 pb-3">VISUALIZATON</strong></h6>
+              <h6><strong class=" font-weight-bold custom-primary-text mb-3 pb-3">Restoration and Rehabilitaion</strong></h6>
 
-              <p class="pt-3 blue-custom-primary-text mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
-                amet
-                numquam iure provident.</p>
+              <p class="pt-3 blue-custom-primary-text mt-3">
+                Bulding restoration at Octopus works describes a particular tretment approch & philosophy within the field of architectural conservation
+        
+              </p>
 
             </div>
 
@@ -719,16 +723,7 @@
 
           <div class="line line-v2 wow fadeIn" data-wow-delay="0.2s"></div>
 
-          <!-- Section description -->
-          <p class="text-center w-responsive mx-auto my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
-            Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
-
-            eum porro a pariatur accusamus veniam. At ab ea a molestiae corrupti numquam quo beatae minima ratione
-
-            magni accusantium repellat eveniet quia vitae.</p>
-
-          <!-- First row -->
           <div class="row ml-3 mr-3 pb-4 pt-1 wow fadeIn" data-wow-delay="0.4s">
 
             <!-- First column -->
@@ -739,109 +734,460 @@
               <!-- Full width lightbox -->
               <div class="mdb-lightbox">
 
-                <figure class="col-md-3">
+                <figure class="col-md-4">
 
-                  <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(135).jpg" data-size="1600x1067">
+                  <a href="../img/octopus portfolio/GELATO/1.jpg" data-lightbox="example-set">
 
-                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(135).jpg"
+                    <img src="../img/octopus portfolio/GELATO/1.jpg"
                       class="img-fluid z-depth-1">
 
                   </a>
 
-                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| Lorem ipsum dolor sit amet</p>
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| GELATO</p>
 
                 </figure>
 
-                <figure class="col-md-3">
+                <figure class="col-md-4">
 
-                  <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(128).jpg" data-size="1600x1067">
+                  <a href="../img/octopus portfolio/GELATO/1-2.jpg" data-lightbox="example-set">
 
-                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(128).jpg"
+                    <img src="../img/octopus portfolio/GELATO/1-2.jpg"
                       class="img-fluid z-depth-1">
 
                   </a>
 
-                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| Lorem ipsum dolor sit amet</p>
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| GELATO</p>
 
                 </figure>
 
-                <figure class="col-md-3">
+                <figure class="col-md-4">
 
-                  <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(133).jpg" data-size="1600x1067">
+                  <a href="../img/octopus portfolio/GELATO/11.jpg" data-lightbox="example-set">
 
-                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(133).jpg"
+                    <img src="../img/octopus portfolio/GELATO/11.jpg"
                       class="img-fluid z-depth-1">
 
                   </a>
 
-                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| Lorem ipsum dolor sit amet</p>
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| GELATO</p>
 
                 </figure>
 
-                <figure class="col-md-3">
+                <figure class="col-md-12">
+                  
+                  <a href="../img/octopus portfolio/GELATO 2/2.effectsResult.jpg" data-lightbox="example-set">
 
-                  <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(131).jpg" data-size="1600x1067">
-
-                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(131).jpg"
+                    <img src="../img/octopus portfolio/GELATO 2/2.effectsResult.jpg"
                       class="img-fluid z-depth-1">
 
                   </a>
 
-                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| Lorem ipsum dolor sit amet</p>
 
                 </figure>
 
-                <figure class="col-md-3">
+                <figure class="col-md-4">
 
-                  <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(130).jpg" data-size="1600x1067">
+                  <a href="../img/octopus portfolio/GELATO 2/1.effectsResult.jpg" data-lightbox="example-set">
 
-                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(130).jpg"
+                    <img src="../img/octopus portfolio/GELATO 2/1.effectsResult.jpg"
                       class="img-fluid z-depth-1">
 
                   </a>
 
-                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| Lorem ipsum dolor sit amet</p>
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| GELATO</p>
 
                 </figure>
 
-                <figure class="col-md-3">
+                <figure class="col-md-4">
 
-                  <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(132).jpg" data-size="1600x1067">
+                  <a href="../img/octopus portfolio/GELATO 2/3.effectsResult.jpg" data-lightbox="example-set">
 
-                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(132).jpg"
+                    <img src="../img/octopus portfolio/GELATO 2/3.effectsResult.jpg"
                       class="img-fluid z-depth-1">
 
                   </a>
 
-                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| Lorem ipsum dolor sit amet</p>
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| GELATO</p>
 
                 </figure>
 
-                <figure class="col-md-3">
+                <figure class="col-md-4">
 
-                  <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(134).jpg" data-size="1600x1067">
+                  <a href="../img/octopus portfolio/GELATO 2/4.effectsResult.jpg" data-lightbox="example-set">
 
-                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(134).jpg"
+                    <img src="../img/octopus portfolio/GELATO 2/4.effectsResult.jpg"
                       class="img-fluid z-depth-1">
 
                   </a>
 
-                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| Lorem ipsum dolor sit amet</p>
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| GELATO</p>
 
                 </figure>
 
-                <figure class="col-md-3">
+                <figure class="col-md-12">
 
-                  <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(1).jpg" data-size="1600x1067">
+                  <a href="../img/octopus portfolio/HIKVISION STANDS/1.jpg" data-lightbox="example-set">
 
-                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(1).jpg"
+                    <img src="../img/octopus portfolio/HIKVISION STANDS/1.jpg"
                       class="img-fluid z-depth-1">
 
                   </a>
 
-                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| Lorem ipsum dolor sit amet</p>
 
                 </figure>
+
+                <figure class="col-md-4">
+
+                  <a href="../img/octopus portfolio/HIKVISION STANDS/3.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/HIKVISION STANDS/3.jpg"
+                      class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| HIKVISION STANDS</p>
+
+                </figure>
+
+
+
+                <figure class="col-md-4">
+
+                  <a href="../img/octopus portfolio/HIKVISION STANDS/5.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/HIKVISION STANDS/5.jpg"
+                      class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| HIKVISION STANDS</p>
+
+                </figure>
+
+
+                <figure class="col-md-4">
+
+                  <a href="../img/octopus portfolio/HIKVISION STANDS/7.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/HIKVISION STANDS/7.jpg"
+                      class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">| HIKVISION STANDS</p>
+
+                </figure>
+
+
+
+
+                <figure class="col-md-12">
+
+                  <a href="../img/octopus portfolio/mazzeh house/2.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/mazzeh house/2.jpg"
+                      class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|house</p>
+
+                </figure>
+
+
+
+                <figure class="col-md-4">
+
+                  <a href="../img/octopus portfolio/mazzeh house/1.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/mazzeh house/1.jpg"
+                      class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|house</p>
+
+                </figure>
+
+
+                <figure class="col-md-4">
+
+                  <a href="../img/octopus portfolio/mazzeh house/3.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/mazzeh house/3.jpg"
+                      class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|house</p>
+
+                </figure>
+
+
+
+                <figure class="col-md-4">
+
+                  <a href="../img/octopus portfolio/mazzeh house/4.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/mazzeh house/4.jpg"
+                      class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|house</p>
+
+                </figure>
+
+
+
+
+
+
+                <figure class="col-md-6">
+
+                  <a href="../img/octopus portfolio/mazzeh house/25.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/mazzeh house/25.jpg"
+                    style="height:580px; max-height:580px"   class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|house</p>
+
+                </figure>
+
+
+
+                <figure class="col-md-6">
+
+                  <a href="../img/octopus portfolio/mazzeh house/53362470_2504741209600100_5574979026084167680_n.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/mazzeh house/53362470_2504741209600100_5574979026084167680_n.jpg"
+                    style="height:580px; max-height:580px"  class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|house</p>
+
+                </figure>
+
+
+
+                <figure class="col-md-12">
+
+                  <a href="../img/octopus portfolio/mazzeh house/356.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/mazzeh house/356.jpg"
+                    class="img-fluid z-depth-1">
+
+                  </a>
+
+
+                </figure>
+
+
+                <figure class="col-md-6">
+
+                  <a href="../img/octopus portfolio/mazzeh house/99.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/mazzeh house/99.jpg"
+                    style="height:580px; max-height:580px"  class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|house</p>
+
+                </figure>
+
+
+                <figure class="col-md-6">
+
+                  <a href="../img/octopus portfolio/mazzeh house/29.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/mazzeh house/29.jpg"
+                    style="height:580px; max-height:580px; "  class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|house</p>
+
+                </figure>
+
+
+                <figure class="col-md-4">
+
+                  <a href="../img/octopus portfolio/mazzeh house/53869309_279842652931836_2731233397891399680_n.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/mazzeh house/53869309_279842652931836_2731233397891399680_n.jpg"
+                    style="height:580px; max-height:580px; width:450px; max-width:450;"  class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|house</p>
+
+                </figure>
+
+                <figure class="col-md-4">
+
+                  <a href="../img/octopus portfolio/mazzeh house/53110801_344236536192113_1247571472730292224_n.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/mazzeh house/53110801_344236536192113_1247571472730292224_n.jpg"
+                    style="height:580px; max-height:580px; width:450px; max-width:450;"  class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|house</p>
+
+                </figure>
+
+                <figure class="col-md-4">
+
+                  <a href="../img/octopus portfolio/mazzeh house/23.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/mazzeh house/23.jpg"
+                    style="height:580px; max-height:580px; width:450px; max-width:450;"  class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|house</p>
+
+                </figure>
+
+
+                <figure class="col-md-12">
+
+                  <a href="../img/octopus portfolio/OPTIZONE GLASSES/1.RGB_color.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/OPTIZONE GLASSES/1.RGB_color.jpg"
+                     class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|OPTIZONE GLASSES</p>
+
+                </figure>
+
+
+
+                <figure class="col-md-6">
+
+                  <a href="../img/octopus portfolio/PRIVATE OFFICE/2.jpg" data-lightbox="example-set">
+
+                    <img style="height: 584px;
+                    width: 800px;" src="../img/octopus portfolio/PRIVATE OFFICE/2.jpg"
+                     class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|OFFICE</p>
+
+                </figure>
+
+
+
+
+                <figure class="col-md-6">
+
+                  <a href="../img/octopus portfolio/OPTIZONE GLASSES/3.RGB_color.jpg" data-lightbox="example-set">
+
+                    <img style="height: 584px;
+                   " src="../img/octopus portfolio/OPTIZONE GLASSES/3.RGB_color.jpg"
+                     class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|OPTIZONE GLASSES</p>
+
+                </figure>
+
+                <figure class="col-md-12">
+
+                  <a href="../img/octopus portfolio/OPTIZONE GLASSES/5.RGB_color.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/OPTIZONE GLASSES/5.RGB_color.jpg"
+                    class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|OPTIZONE GLASSES</p>
+
+                </figure>
+
+
+
+                <figure class="col-md-12">
+
+                  <a href="../img/octopus portfolio/OPTIZONE GLASSES/4.RGB_color.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/OPTIZONE GLASSES/4.RGB_color.jpg"
+                   class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|OPTIZONE GLASSES</p>
+
+                </figure>
+
+
+
+
+                <figure class="col-md-4">
+
+                  <a href="../img/octopus portfolio/OPTIZONE GLASSES 2/22.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/OPTIZONE GLASSES 2/22.jpg"
+                  class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|OPTIZONE GLASSES</p>
+
+                </figure>
+
+
+
+                <figure class="col-md-4">
+
+                  <a href="../img/octopus portfolio/OPTIZONE GLASSES 2/12345.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/OPTIZONE GLASSES 2/12345.jpg"
+                  class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|OPTIZONE GLASSES</p>
+
+                </figure>
+
+
+
+                <figure class="col-md-4">
+
+                  <a href="../img/octopus portfolio/OPTIZONE GLASSES 2/123123123.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/OPTIZONE GLASSES 2/123123123.jpg"
+                  class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|OPTIZONE GLASSES</p>
+
+                </figure>
+
+
+                <figure class="col-md-12">
+
+                  <a href="../img/octopus portfolio/OPTIZONE GLASSES 2/22_01.jpg" data-lightbox="example-set">
+
+                    <img src="../img/octopus portfolio/OPTIZONE GLASSES 2/22_01.jpg"
+                  class="img-fluid z-depth-1">
+
+                  </a>
+
+                  <p class="text-uppercase  font-weight-bold custom-primary-text blue-custom-primary-text mt-4">|OPTIZONE GLASSES</p>
+
+                </figure>
+
 
               </div>
               <!-- Full width lightbox -->
@@ -883,37 +1229,33 @@
 
       <h1 class="section-heading text-center custom-primary-text mb-5 mt-5 pt-4 wow fadeIn">What Next</h1>
 
-      <p class=" dark-gray text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">Lorem ipsum dolor sit amet,
-        consectetur adipisicing elit. Amet maiores aspernatur aut animi debitis. Ad excepturi dolor tempora at aperiam
-        earum veritatis ullam. Culpa tempora possimus necessitatibus excepturi, quisquam officia.</p>
+
 
       <!-- First row -->
       <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
 
         <!-- First column -->
         <div class="col-md-6 mb-5">
-
+            <a class="custom-primary-text" href="./contact-us.html">
           <i class="fa fa-phone fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
 
-          <h4 class="font-weight-bold mb-4 custom-primary-text">Get in touch
+          <h4 class="font-weight-bold mb-4 custom-primary-text"> Get in touch
           </h4>
 
-          <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores
-            nam,
-            aperiam minima assumenda deleniti hic.</p>
+        </a>
 
         </div>
         <!-- First column -->
 
         <!-- Second column -->
         <div class="col-md-6 mb-5">
+            <a class="custom-primary-text" href="./contact-us.html">
 
           <i class="fas fa-money-bill-alt fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
           <h4 class="font-weight-bold mb-4 custom-primary-text">Get pricing
           </h4>
 
-          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
-            aperiam minima assumenda deleniti hic.</p>
+        </a>
 
         </div>
         <!-- Second column -->
@@ -987,6 +1329,10 @@ $( "#container" ).mouseout(function(e) {
   });
 
 </script>
+
+<script src="../js/dist/lightbox-plus-jquery.min.js"></script>
+
+
 
 </body>
 

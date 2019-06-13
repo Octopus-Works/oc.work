@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="csrf-token" content="{{ csrf_token() }}" />
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -326,17 +328,14 @@ h2,h5{font-weight:300;}
     <!-- Section heading -->
     <h2 class="h1-responsive font-weight-bold text-center custom-primary-text">Contact us</h2>
     <hr class="w-25 mb-5">
-    <!-- Section description -->
-    <p class="text-center w-responsive mx-auto pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
-      eum porro a pariatur veniam.</p>
-  
+
     <!-- Grid row -->
     <div class="row">
-  
+
       <!-- Grid column -->
       <div class="col-lg-5 mb-lg-0 mb-4">
-  
+          <form id="form_contact" >
+              @csrf
         <!-- Form with header -->
         <div class="card">
           <div class="card-body">
@@ -348,31 +347,38 @@ h2,h5{font-weight:300;}
             <!-- Body -->
             <div class="md-form">
               <i class="fas fa-user prefix grey-text"></i>
-              <input type="text" id="form-name" class="form-control">
-              <label for="form-name">Your name</label>
+              <input type="text" id="form-contact-name" name="name" class="form-control">
+              <label for="form-contact-name">Your name</label>
             </div>
             <div class="md-form">
               <i class="fas fa-envelope prefix grey-text"></i>
-              <input type="text" id="form-email" class="form-control">
-              <label for="form-email">Your email</label>
+              <input type="text" name="email" id="form-contact-email" class="form-control">
+              <label for="form-contact-email">Your email</label>
             </div>
             <div class="md-form">
               <i class="fas fa-tag prefix grey-text"></i>
-              <input type="text" id="form-Subject" class="form-control">
-              <label for="form-Subject">Subject</label>
+              <input type="text" name="subject" id="form-contact-subject" class="form-control">
+              <label for="form-contact-subject">Subject</label>
             </div>
             <div class="md-form">
               <i class="fas fa-pencil-alt prefix grey-text"></i>
-              <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
-              <label for="form-text">Send message</label>
+              <textarea id="form-contact-text"  name="message" class="form-control md-textarea" rows="3"></textarea>
+              <label for="form-contact-text">Send message</label>
             </div>
             <div class="text-center">
-              <button class="btn custom-primary">Submit</button>
+              <a class="btn-floating btn-lg blue"  onclick="validateForm()" >
+                <i class="far fa-paper-plane custom-primary"></i>
+              </a>
             </div>
+          </form>
+
+            <div id="status"></div>
           </div>
         </div>
-        <!-- Form with header -->
   
+        <!-- Form with header -->
+
+
       </div>
       <!-- Grid column -->
   
@@ -419,54 +425,6 @@ h2,h5{font-weight:300;}
   <!-- Section: Contact v.1 -->
 </div>
  </main>
-
-    <div class="container mb-5">
-        <!-- Second section -->
-        <section id="what-next" class="section feature-box">
-  
-          <h1 class="section-heading text-center custom-primary-text mb-5 mt-5 pt-4 wow fadeIn">What Next</h1>
-  
-          <p class=" dark-gray text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Amet maiores aspernatur aut animi debitis. Ad excepturi dolor tempora at aperiam
-            earum veritatis ullam. Culpa tempora possimus necessitatibus excepturi, quisquam officia.</p>
-  
-          <!-- First row -->
-          <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
-  
-            <!-- First column -->
-            <div class="col-md-6 mb-5">
-  
-              <i class="fa fa-phone fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
-  
-              <h4 class="font-weight-bold mb-4 custom-primary-text">Get in touch
-              </h4>
-  
-              <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores
-                nam,
-                aperiam minima assumenda deleniti hic.</p>
-  
-            </div>
-            <!-- First column -->
-  
-            <!-- Second column -->
-            <div class="col-md-6 mb-5">
-  
-              <i class="fas fa-money-bill-alt fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
-              <h4 class="font-weight-bold mb-4 custom-primary-text">Get pricing
-              </h4>
-  
-              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
-                aperiam minima assumenda deleniti hic.</p>
-  
-            </div>
-            <!-- Second column -->
-  
-  
-          </div>
-          <!-- First row -->
-  
-        </section>
-      </div>
   
   
   
@@ -489,7 +447,88 @@ h2,h5{font-weight:300;}
         $('.mdb-select').material_select();
       });
 
+
     </script>
+
+
+<script>
+
+
+      function validateForm() {
+
+      var name =  document.getElementById('form-contact-name').value;
+      if (name == "") {
+          $('#status').css("color", "red");
+          document.getElementById('status').innerHTML = "Name cannot be empty";
+          return false;
+      }
+
+
+
+
+      var email =  document.getElementById('form-contact-email').value;
+      if (email == "") {
+          $('#status').css("color", "red");
+          document.getElementById('status').innerHTML = "Email cannot be empty";
+          return false;
+      } else {
+          var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+          if(!re.test(email)){
+              $('#status').css("color", "red");
+              document.getElementById('status').innerHTML = "Email format invalid";
+              return false;
+          }
+      }
+      var subject =  document.getElementById('form-contact-subject').value;
+      if (subject == "") {
+          $('#status').css("color", "red");
+          document.getElementById('status').innerHTML = "Subject cannot be empty";
+          return false;
+      }
+      var message =  document.getElementById('form-contact-text').value;
+      if (message == "") {
+          $('#status').css("color", "red");
+          document.getElementById('status').innerHTML = "Message cannot be empty";
+          return false;
+      }
+     
+
+      $('#status').css("color", "#4285f4");
+
+      $( "#status" ).html('<div class="fa-3x"><i class="fas fa-spinner fa-spin"></i></div>');
+
+      document.getElementById('status').innerHTML = "Sending...";
+
+      var json = JSON.stringify(jQuery('#form_contact').serializeArray());
+
+      console.log(json)
+
+      $.ajax({
+          headers: {
+                  'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+              },                    
+          url : "/contact-us",
+          type: "POST",
+          data : JSON.parse(json),
+          success: function(data, textStatus, jqXHR)
+          {
+             $('#status').css("color", "green");
+             $('#status').text("Thank you for contacting us");
+
+           
+          },
+          error: function (jqXHR, textStatus, errorThrown)
+           {
+            $('#status').text(jqXHR);
+           }
+      });
+    
+      }
+
+
+
+
+    </script>     
 
 </body>
 

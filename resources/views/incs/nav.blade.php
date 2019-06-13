@@ -28,10 +28,24 @@
               <li class="nav-item ml-4 {{ Request::routeIs('about') ? 'active' : '' }}">
                 <a class="nav-link white-text" href="{{route('about')}}" data-offset="90">About Us</a>
               </li>
-              <li class="nav-item  ml-4  {{ Request::routeIs('board-of-directiors') ? 'active' : '' }}">
-                <a class="nav-link  white-text"
-                   class="dropdown-item" href="{{route('board-of-directiors')}}">Board Of Directors</a>
-              </li>
+
+              
+
+              <li class="nav-item dropdown ml-4 {{ Request::routeIs('board-of-directiors') || Request::routeIs('chair-man-letter') ? 'active' : '' }} ">
+                  <a class="nav-link dropdown-toggle white-text" id="navbarDropdownMenuLink12" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Board of Directiors </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item {{ Request::routeIs('board-of-directiors') ? 'active' : '' }}" href="{{route('board-of-directiors')}}">Board Of Directiors</a>
+                    <a class="dropdown-item {{ Request::routeIs('chair-man-letter') ? 'active' : '' }}" href="{{route('chair-man-letter')}}">Chair Man Letter</a>
+
+                  </div>
+                </li>
+
+              
+
+
+              
+           
               <li class="nav-item  ml-4 {{ Request::routeIs('contact-us') ? 'active' : '' }}">
                 <a class="nav-link  white-text" aria-haspopup="true" href="{{route('contact-us')}}" aria-expanded="false">Contact Us </a>
               </li>

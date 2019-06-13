@@ -172,16 +172,15 @@
 
     <div id="container" class="view jarallax" data-jarallax='{"speed": 0.2}'>
         <div class="img1 z-depth-2 h-100   wow fadeInRightBig" data-wow-delay="0" >
-          <div class="img2 z-depth-2  h-100   wow fadeInLeftBig"  data-wow-delay="0.5s" > 
-            <div id="" class=" img4  h-100   wow fadeInUpBig" data-wow-delay="1s" >
+          <div id="moveing" class="img2   h-100  moveing  wow fadeInLeftBig"  data-wow-delay="0.5s" > 
+            <div id="moveing" class=" img4 moveing  h-100   wow fadeInUpBig" data-wow-delay="1s" >
                 <div id="moveing" class=" img3 moveing h-100   wow fadeInUpBig" data-wow-delay="1s" >
-                    <div id="test" class=" img5 rotating  h-100 " data-wow-delay="1s" >
-                      </div>  
+           
                 </div>
             </div>
           </div>
    
-        </div>
+     
       <div class="mask ">
   
         <div class="container h-100 d-inline-flex  ml-5  align-items-center">
@@ -215,195 +214,74 @@
   <main>
 
 <div class="container">
-<!-- Section: Testimonials v.3 -->
-<section class="team-section text-center my-5">
+<!-- Section: Testimonials v.3 -->   
+ <section id="about" class=" pb-5">
 
-    <!-- Section heading -->
-    <h2 class="h1-responsive font-weight-bold my-5 custom-primary-text">Meet Our Directors</h2>
-    <!-- Section description -->
-    <p class="dark-grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
-      eum porro a pariatur veniam.</p>
-  
-    <!--Grid row-->
-    <div class="row text-center">
-  
-      <!--Grid column-->
-      <div class="col-md-4 mb-md-0 mb-5">
-  
-        <div class="testimonial">
-          <!--Avatar-->
-          <div class="avatar mx-auto">
-            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1 img-fluid">
-          </div>
-          <!--Content-->
-          <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
-          <h6 class="font-weight-bold custom-primary-text my-3">Web Designer</h6>
-          <p class="font-weight-normal dark-grey-text">
-            <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-            eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
-          <!--Review-->
-          <div class="orange-text">
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star-half-alt"> </i>
-          </div>
-        </div>
-  
-      </div>
-      <!--Grid column-->
-  
-      <!--Grid column-->
-      <div class="col-md-4 mb-md-0 mb-5">
-  
-        <div class="testimonial">
-          <!--Avatar-->
-          <div class="avatar mx-auto">
-            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle z-depth-1 img-fluid">
-          </div>
-          <!--Content-->
-          <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
-          <h6 class="font-weight-bold custom-primary-text my-3">Web Developer</h6>
-          <p class="font-weight-normal dark-grey-text">
-            <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam
-            corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
-          <!--Review-->
-          <div class="orange-text">
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-          </div>
-        </div>
-  
-      </div>
-      <!--Grid column-->
-  
-      <!--Grid column-->
-      <div class="col-md-4">
-  
-        <div class="testimonial">
-          <!--Avatar-->
-          <div class="avatar mx-auto">
-            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle z-depth-1 img-fluid">
-          </div>
-          <!--Content-->
-          <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
-          <h6 class="font-weight-bold custom-primary-text my-3">Photographer</h6>
-          <p class="font-weight-normal dark-grey-text">
-            <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti.</p>
-          <!--Review-->
-          <div class="orange-text">
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="far fa-star"> </i>
-          </div>
-        </div>
-  
-      </div>
-      <!--Grid column-->
-  
-    </div>
-    <!--Grid row-->
-   <hr class="w-50 mt-5 mb-5">
+                  <!-- Section heading -->
+                  <h2 class="h1-responsive custom-primary-text font-weight-bold text-center mt-5">Who Are We ? </h2>
+                  <hr class="w-25 my-3">
+                  <p class="lead dark-grey-text text-center w-responsive mx-auto mb-5 pb-3">
+                      We are a group of Syrians who founded the company Octopus Works in the late 2018. We believe in leaving a print by creating the perfect result in merging between Arts and Technology. Our sections include Visual production, Visual communication, software engineering, and architecture. 
+                    </p>
+          
+          
+                </section>
+                <!-- Section: About Us -->
+                <hr class="w-100">
+
+                <div class="row pt-4 mt-5">
+
+                  <!-- Grid column -->
+                  <div class="col-lg-12 col-md-12 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+
+                      <!-- Secion heading -->
+                      <h3 class="mb-5 text-center custom-primary-text title font-weight-bold wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+                          <strong>Our mission</strong>
+                          <hr class="w-25">
+
+                      </h3>
+                      <!-- Description -->
+                      <p class="dark-grey-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta ratione quisquam, dicta
+                          ab cupiditate iure eaque? Repellendus voluptatum, magni impedit delectus, beatae maxime temporibus
+                          maiores quibusdam.</p>
+                      <p  class="dark-grey-text text-center">Rem magnam ad perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi aut possimus
+                          in hic molestias repellendus illo ullam odit quia velit. Lorem ipsum dolor sit amet, consectetur
+                          adipisicing elit.</p>
+
+                  </div>
+                  <!-- Grid column -->
 
 
-
-    <!--Grid row-->
-    <div class="row text-center">
-  
-            <!--Grid column-->
-            <div class="col-md-4 mb-md-0 mb-5">
-        
-              <div class="testimonial">
-                <!--Avatar-->
-                <div class="avatar mx-auto">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1 img-fluid">
-                </div>
-                <!--Content-->
-                <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
-                <h6 class="font-weight-bold custom-primary-text my-3">Web Designer</h6>
-                <p class="font-weight-normal dark-grey-text">
-                  <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
-                <!--Review-->
-                <div class="orange-text">
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star-half-alt"> </i>
-                </div>
               </div>
-        
+
+              <hr class="w-100">
+
+
+              <div class="row pt-4 mt-5 mb-5">
+
+                <!-- Grid column -->
+                <div class="col-lg-12 col-md-12 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+
+                    <!-- Secion heading -->
+                    <h3 class="mb-5 text-center custom-primary-text title font-weight-bold wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+                        <strong>Our Vision</strong>
+                        <hr class="w-25">
+
+                    </h3>
+                    <!-- Description -->
+                    <p class="dark-grey-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta ratione quisquam, dicta
+                        ab cupiditate iure eaque? Repellendus voluptatum, magni impedit delectus, beatae maxime temporibus
+                        maiores quibusdam.</p>
+                    <p  class="dark-grey-text text-center">Rem magnam ad perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi aut possimus
+                        in hic molestias repellendus illo ullam odit quia velit. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit.</p>
+
+                </div>
+                <!-- Grid column -->
+
+
             </div>
-            <!--Grid column-->
-        
-            <!--Grid column-->
-            <div class="col-md-4 mb-md-0 mb-5">
-        
-              <div class="testimonial">
-                <!--Avatar-->
-                <div class="avatar mx-auto">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle z-depth-1 img-fluid">
-                </div>
-                <!--Content-->
-                <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
-                <h6 class="font-weight-bold custom-primary-text my-3">Web Developer</h6>
-                <p class="font-weight-normal dark-grey-text">
-                  <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                  corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
-                <!--Review-->
-                <div class="orange-text">
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                </div>
-              </div>
-        
-            </div>
-            <!--Grid column-->
-        
-            <!--Grid column-->
-            <div class="col-md-4">
-        
-              <div class="testimonial">
-                <!--Avatar-->
-                <div class="avatar mx-auto">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle z-depth-1 img-fluid">
-                </div>
-                <!--Content-->
-                <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
-                <h6 class="font-weight-bold custom-primary-text my-3">Photographer</h6>
-                <p class="font-weight-normal dark-grey-text">
-                  <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque corrupti.</p>
-                <!--Review-->
-                <div class="orange-text">
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="far fa-star"> </i>
-                </div>
-              </div>
-        
-            </div>
-            <!--Grid column-->
-        
-          </div>
-          <!--Grid row-->
-   
-  </section>
-  <!-- Section: Testimonials v.3 -->
+
 
 </div>
 
@@ -412,56 +290,7 @@
   </main>
   <!-- Main layout -->
 
-<hr>
   
-<div class="container mb-5">
-    <!-- Second section -->
-    <section id="what-next" class="section feature-box">
-
-      <h1 class="section-heading text-center custom-primary-text mb-5 mt-5 pt-4 wow fadeIn">What Next</h1>
-
-      <p class=" dark-gray text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">Lorem ipsum dolor sit amet,
-        consectetur adipisicing elit. Amet maiores aspernatur aut animi debitis. Ad excepturi dolor tempora at aperiam
-        earum veritatis ullam. Culpa tempora possimus necessitatibus excepturi, quisquam officia.</p>
-
-      <!-- First row -->
-      <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
-
-        <!-- First column -->
-        <div class="col-md-6 mb-5">
-
-          <i class="fa fa-phone fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
-
-          <h4 class="font-weight-bold mb-4 custom-primary-text">Get in touch
-          </h4>
-
-          <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores
-            nam,
-            aperiam minima assumenda deleniti hic.</p>
-
-        </div>
-        <!-- First column -->
-
-        <!-- Second column -->
-        <div class="col-md-6 mb-5">
-
-          <i class="fas fa-money-bill-alt fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
-          <h4 class="font-weight-bold mb-4 custom-primary-text">Get pricing
-          </h4>
-
-          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
-            aperiam minima assumenda deleniti hic.</p>
-
-        </div>
-        <!-- Second column -->
-
-
-      </div>
-      <!-- First row -->
-
-    </section>
-  </div>
-
 
 
 
@@ -498,14 +327,17 @@
 
 
 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js'></script>
+
+
+
+
+
 <script>
-  
-
-
-
   $("#container").mousemove(function (e) {
 
-    parallaxIt(e, ".moveing", -100);
+    parallaxIt(e, ".moveing", -40);
   });
   $( "#container" ).mouseout(function(e) {
 parallaxIt(e, ".moveing", 0)

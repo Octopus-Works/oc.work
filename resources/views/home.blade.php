@@ -435,7 +435,7 @@
             Our work mentality is different than the environment we work in. We think outside the box!! The works we offer is on a global standard. We’re very creative and our creativity is a result of how much knowledge and experience we hold in the back of our heads and that is what distinguishes us 
           </p>
 
-=
+
       </section>
       <!-- Section: About Us -->
       <hr>
@@ -704,6 +704,7 @@
 
     </section>
   </div>
+
 
   @include('incs.footer')
 

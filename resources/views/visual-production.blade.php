@@ -883,7 +883,7 @@
       <div class="row">
 
         <!-- Grid column -->
-        <div class="col-lg-4 col-md-12 mb-4">
+        <div class="col-lg-6 col-md-6 mb-4">
 
           <!--Modal: Name-->
           <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -897,11 +897,12 @@
                 <div class="modal-body mb-0 p-0">
 
                   <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A3PDXmYoF5U"
-                      allowfullscreen></iframe>
+                      <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/rcwgQObMjSo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
 
+
                 </div>
+
 
                 <!--Footer-->
 
@@ -913,14 +914,15 @@
           </div>
           <!--Modal: Name-->
 
-          <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-1.jpg"
+          <a><img class="img-fluid z-depth-1" src="https://i1.ytimg.com/vi/rcwgQObMjSo/hqdefault.jpg"
               alt="video" data-toggle="modal" data-target="#modal1"></a>
+              <p class="mt-2 text-center custom-primary-text"> <strong><b>HARAMLEK</b></strong>  </p>
 
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-6 col-md-6 mb-4">
 
           <!--Modal: Name-->
           <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -934,8 +936,7 @@
                 <div class="modal-body mb-0 p-0">
 
                   <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
-                      allowfullscreen></iframe>
+                      <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/hbjigSsyWTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
 
                 </div>
@@ -949,274 +950,17 @@
           </div>
           <!--Modal: Name-->
 
-          <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-2.jpg"
+          <a><img class="img-fluid z-depth-1" src="https://i1.ytimg.com/vi/hbjigSsyWTs/hqdefault.jpg"
               alt="video" data-toggle="modal" data-target="#modal6"></a>
+              <p class="mt-2 text-center custom-primary-text"> <strong><b>For the love of Syria-Jewelry</b></strong>  </p>
 
         </div>
         <!-- Grid column -->
 
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4">
 
-          <!--Modal: Name-->
-          <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-
-              <!--Content-->
-              <div class="modal-content">
-
-                <!--Body-->
-                <div class="modal-body mb-0 p-0">
-
-                  <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
-                      allowfullscreen></iframe>
-                  </div>
-
-                </div>
-
-
-
-              </div>
-              <!--/.Content-->
-
-            </div>
-          </div>
-          <!--Modal: Name-->
-
-          <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-3.jpg"
-              alt="video" data-toggle="modal" data-target="#modal4"></a>
-
-        </div>
-        <!-- Grid column -->
 
       </div>
-      <!-- Grid row -->
-      <div class="row">
 
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-12 mb-4">
-
-          <!--Modal: Name-->
-          <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-
-              <!--Content-->
-              <div class="modal-content">
-
-                <!--Body-->
-                <div class="modal-body mb-0 p-0">
-
-                  <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A3PDXmYoF5U"
-                      allowfullscreen></iframe>
-                  </div>
-
-                </div>
-
-                <!--Footer-->
-
-
-              </div>
-              <!--/.Content-->
-
-            </div>
-          </div>
-          <!--Modal: Name-->
-
-          <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-1.jpg"
-              alt="video" data-toggle="modal" data-target="#modal1"></a>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4">
-
-          <!--Modal: Name-->
-          <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-
-              <!--Content-->
-              <div class="modal-content">
-
-                <!--Body-->
-                <div class="modal-body mb-0 p-0">
-
-                  <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
-                      allowfullscreen></iframe>
-                  </div>
-
-                </div>
-
-                <!--Footer-->
-
-
-              </div>
-              <!--/.Content-->
-
-            </div>
-          </div>
-          <!--Modal: Name-->
-
-          <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-2.jpg"
-              alt="video" data-toggle="modal" data-target="#modal6"></a>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4">
-
-          <!--Modal: Name-->
-          <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-
-              <!--Content-->
-              <div class="modal-content">
-
-                <!--Body-->
-                <div class="modal-body mb-0 p-0">
-
-                  <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
-                      allowfullscreen></iframe>
-                  </div>
-
-                </div>
-
-                <!--Footer-->
-
-              </div>
-              <!--/.Content-->
-
-            </div>
-          </div>
-          <!--Modal: Name-->
-
-          <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-3.jpg"
-              alt="video" data-toggle="modal" data-target="#modal4"></a>
-
-        </div>
-        <!-- Grid column -->
-
-      </div>
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-12 mb-4">
-
-          <!--Modal: Name-->
-          <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-
-              <!--Content-->
-              <div class="modal-content">
-
-                <!--Body-->
-                <div class="modal-body mb-0 p-0">
-
-                  <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A3PDXmYoF5U"
-                      allowfullscreen></iframe>
-                  </div>
-
-                </div>
-
-
-
-              </div>
-              <!--/.Content-->
-
-            </div>
-          </div>
-          <!--Modal: Name-->
-
-          <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-1.jpg"
-              alt="video" data-toggle="modal" data-target="#modal1"></a>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-4  col-md-6 mb-4">
-
-          <!--Modal: Name-->
-          <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-
-              <!--Content-->
-              <div class="modal-content">
-
-                <!--Body-->
-                <div class="modal-body mb-0 p-0">
-
-                  <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
-                      allowfullscreen></iframe>
-                  </div>
-
-                </div>
-
-
-              </div>
-              <!--/.Content-->
-
-            </div>
-          </div>
-          <!--Modal: Name-->
-
-          <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-2.jpg"
-              alt="video" data-toggle="modal" data-target="#modal6"></a>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-4 col-md-6 mb-4">
-
-          <!--Modal: Name-->
-          <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-
-              <!--Content-->
-              <div class="modal-content">
-
-                <!--Body-->
-                <div class="modal-body mb-0 p-0">
-
-                  <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
-                      allowfullscreen></iframe>
-                  </div>
-
-                </div>
-
-
-
-              </div>
-              <!--/.Content-->
-
-            </div>
-          </div>
-          <!--Modal: Name-->
-
-          <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-3.jpg"
-              alt="video" data-toggle="modal" data-target="#modal4"></a>
-
-        </div>
-        <!-- Grid column -->
-
-      </div>
-    </div>
 
   </main>
   <!-- Main layout -->
@@ -1231,53 +975,49 @@
 
 
 
-<div class="container mb-5">
-      <!-- Second section -->
-      <section id="what-next" class="section feature-box">
+  <div class="container mb-5">
+    <!-- Second section -->
+    <section id="what-next" class="section feature-box">
 
-        <h1 class="section-heading text-center custom-primary-text mb-5 mt-5 pt-4 wow fadeIn">What Next</h1>
+      <h1 class="section-heading text-center custom-primary-text mb-5 mt-5 pt-4 wow fadeIn">What Next</h1>
 
-        <p class=" dark-gray text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Amet maiores aspernatur aut animi debitis. Ad excepturi dolor tempora at aperiam
-          earum veritatis ullam. Culpa tempora possimus necessitatibus excepturi, quisquam officia.</p>
 
-        <!-- First row -->
-        <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
 
-          <!-- First column -->
-          <div class="col-md-6 mb-5">
+      <!-- First row -->
+      <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
 
-            <i class="fa fa-phone fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
+        <!-- First column -->
+        <div class="col-md-6 mb-5">
+            <a class="custom-primary-text" href="./contact-us.html">
+          <i class="fa fa-phone fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
 
-            <h4 class="font-weight-bold mb-4 custom-primary-text">Get in touch
-            </h4>
+          <h4 class="font-weight-bold mb-4 custom-primary-text"> Get in touch
+          </h4>
 
-            <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores
-              nam,
-              aperiam minima assumenda deleniti hic.</p>
-
-          </div>
-          <!-- First column -->
-
-          <!-- Second column -->
-          <div class="col-md-6 mb-5">
-
-            <i class="fas fa-money-bill-alt fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
-            <h4 class="font-weight-bold mb-4 custom-primary-text">Get pricing
-            </h4>
-
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
-              aperiam minima assumenda deleniti hic.</p>
-
-          </div>
-          <!-- Second column -->
-
+        </a>
 
         </div>
-        <!-- First row -->
+        <!-- First column -->
 
-      </section>
-    </div>
+        <!-- Second column -->
+        <div class="col-md-6 mb-5">
+            <a class="custom-primary-text" href="./contact-us.html">
+
+          <i class="fas fa-money-bill-alt fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
+          <h4 class="font-weight-bold mb-4 custom-primary-text">Get pricing
+          </h4>
+
+        </a>
+
+        </div>
+        <!-- Second column -->
+
+
+      </div>
+      <!-- First row -->
+
+    </section>
+  </div>
 
 
 
@@ -1345,6 +1085,7 @@
   </script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js'></script>
+  <script src="../js/dist/lightbox-plus-jquery.min.js"></script>
 
 
 

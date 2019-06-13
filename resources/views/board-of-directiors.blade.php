@@ -168,13 +168,7 @@
             <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
             eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
           <!--Review-->
-          <div class="orange-text">
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star-half-alt"> </i>
-          </div>
+
         </div>
   
       </div>
@@ -186,22 +180,16 @@
         <div class="testimonial">
           <!--Avatar-->
           <div class="avatar mx-auto">
-            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle z-depth-1 img-fluid">
+            <img src="https://scontent.flca1-2.fna.fbcdn.net/v/t1.0-9/37028757_2290620067631678_4632444089290194944_n.jpg?_nc_cat=102&_nc_ht=scontent.flca1-2.fna&oh=c8ecd17280d89033357a7aa9f1a3c47b&oe=5D9D80E1" class="rounded-circle z-depth-1 img-fluid">
           </div>
           <!--Content-->
-          <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
-          <h6 class="font-weight-bold custom-primary-text my-3">Web Developer</h6>
+          <h4 class="font-weight-bold dark-grey-text mt-4">Amjad Al-Fawal</h4>
+          <h6 class="font-weight-bold custom-primary-text my-3">Software Team Leader</h6>
           <p class="font-weight-normal dark-grey-text">
             <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam
             corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
           <!--Review-->
-          <div class="orange-text">
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-          </div>
+
         </div>
   
       </div>
@@ -222,13 +210,7 @@
             <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
             blanditiis praesentium voluptatum deleniti atque corrupti.</p>
           <!--Review-->
-          <div class="orange-text">
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="fas fa-star"> </i>
-            <i class="far fa-star"> </i>
-          </div>
+
         </div>
   
       </div>
@@ -258,13 +240,7 @@
                   <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
                   eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
                 <!--Review-->
-                <div class="orange-text">
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star-half-alt"> </i>
-                </div>
+
               </div>
         
             </div>
@@ -285,13 +261,7 @@
                   <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam
                   corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
                 <!--Review-->
-                <div class="orange-text">
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                </div>
+
               </div>
         
             </div>
@@ -312,13 +282,7 @@
                   <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
                   blanditiis praesentium voluptatum deleniti atque corrupti.</p>
                 <!--Review-->
-                <div class="orange-text">
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="fas fa-star"> </i>
-                  <i class="far fa-star"> </i>
-                </div>
+
               </div>
         
             </div>
@@ -339,53 +303,53 @@
 
 <hr>
   
+
+
+
 <div class="container mb-5">
-    <!-- Second section -->
-    <section id="what-next" class="section feature-box">
+  <!-- Second section -->
+  <section id="what-next" class="section feature-box">
 
-      <h1 class="section-heading text-center custom-primary-text mb-5 mt-5 pt-4 wow fadeIn">What Next</h1>
+    <h1 class="section-heading text-center custom-primary-text mb-5 mt-5 pt-4 wow fadeIn">What Next</h1>
 
-      <p class=" dark-gray text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">Lorem ipsum dolor sit amet,
-        consectetur adipisicing elit. Amet maiores aspernatur aut animi debitis. Ad excepturi dolor tempora at aperiam
-        earum veritatis ullam. Culpa tempora possimus necessitatibus excepturi, quisquam officia.</p>
 
-      <!-- First row -->
-      <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
 
-        <!-- First column -->
-        <div class="col-md-6 mb-5">
+    <!-- First row -->
+    <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
 
-          <i class="fa fa-phone fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
+      <!-- First column -->
+      <div class="col-md-6 mb-5">
+          <a class="custom-primary-text" href="./contact-us.html">
+        <i class="fa fa-phone fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
 
-          <h4 class="font-weight-bold mb-4 custom-primary-text">Get in touch
-          </h4>
+        <h4 class="font-weight-bold mb-4 custom-primary-text"> Get in touch
+        </h4>
 
-          <p class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores
-            nam,
-            aperiam minima assumenda deleniti hic.</p>
-
-        </div>
-        <!-- First column -->
-
-        <!-- Second column -->
-        <div class="col-md-6 mb-5">
-
-          <i class="fas fa-money-bill-alt fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
-          <h4 class="font-weight-bold mb-4 custom-primary-text">Get pricing
-          </h4>
-
-          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
-            aperiam minima assumenda deleniti hic.</p>
-
-        </div>
-        <!-- Second column -->
-
+      </a>
 
       </div>
-      <!-- First row -->
+      <!-- First column -->
 
-    </section>
-  </div>
+      <!-- Second column -->
+      <div class="col-md-6 mb-5">
+          <a class="custom-primary-text" href="./contact-us.html">
+
+        <i class="fas fa-money-bill-alt fa-6x mb-5 custom-primary-text" aria-hidden="true"></i>
+        <h4 class="font-weight-bold mb-4 custom-primary-text">Get pricing
+        </h4>
+
+      </a>
+
+      </div>
+      <!-- Second column -->
+
+
+    </div>
+    <!-- First row -->
+
+  </section>
+</div>
+
 
 
 

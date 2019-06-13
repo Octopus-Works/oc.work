@@ -40,3 +40,11 @@ Route::get('/visual-production', function () {
     return view('visual-production');
 })->name('visual-production');
 
+Route::get('/chair-man-letter', function () {
+    return view('chair-man-letter');
+})->name('chair-man-letter');
+
+
+Route::post('/contact-us', ['uses' => 'ContactMessageController@send']);
+
+
