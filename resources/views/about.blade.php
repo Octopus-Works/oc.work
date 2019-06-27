@@ -84,6 +84,8 @@
       background-size: cover;
       background-position: center center;
       background-image: url('../img/mobile/it/it.png');
+      
+      
     }
     .img2 {
       background-position: center;
@@ -152,7 +154,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
-      background-image: url('../img/about us/5.png');
+      background-image: url('../img/Desktop/4.png');
     }
 
 
@@ -168,14 +170,18 @@
   <!-- Navigation & Intro -->
   <header>
     @include('incs.nav')
+  
 
 
     <div id="container" class="view jarallax" data-jarallax='{"speed": 0.2}'>
-        <div class="img1 z-depth-2 h-100   wow fadeInRightBig" data-wow-delay="0" >
-          <div id="moveing" class="img2   h-100  moveing  wow fadeInLeftBig"  data-wow-delay="0.5s" > 
+        <div class="img1  h-100   wow fadeInRightBig" data-wow-delay="0" >
+          <div id="moveing" class="img2   h-100  moveing  wow fadeInLeftBig"  data-wow-delay="1s" > 
             <div id="moveing" class=" img4 moveing  h-100   wow fadeInUpBig" data-wow-delay="1s" >
                 <div id="moveing" class=" img3 moveing h-100   wow fadeInUpBig" data-wow-delay="1s" >
+                    <div id="moveing" class=" img5 moveing h-100   wow fadeInUpBig" data-wow-delay="1s" >
            
+                    
+                  </div>
                 </div>
             </div>
           </div>

@@ -246,6 +246,14 @@ h2,h5{font-weight:300;}
       background-image: url('../img/contact us/2.png');
     }
     
+    .img3 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/contact us/2.png');
+    }
+    
 
 }
 

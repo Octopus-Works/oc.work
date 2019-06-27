@@ -21,7 +21,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item {{ Request::routeIs('software-engineering') ? 'active' : '' }}" href="{{route('software-engineering')}}">Software Engineering</a>
                   <a class="dropdown-item {{ Request::routeIs('visual-production') ? 'active' : '' }}" href="{{route('visual-production')}}">Visual Proudction</a>
-                  <a class="dropdown-item {{ Request::routeIs('graphic-design') ? 'active' : '' }}" href="{{route('graphic-design')}}">Graphic Design</a>
+                  {{-- <a class="dropdown-item {{ Request::routeIs('graphic-design') ? 'active' : '' }}" href="{{route('graphic-design')}}">Graphic Design</a> --}}
                   <a class="dropdown-item {{ Request::routeIs('architecture') ? 'active' : '' }}" href="{{route('architecture')}}">Architecture & Interior Design</a>
                 </div>
               </li>

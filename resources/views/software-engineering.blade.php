@@ -566,6 +566,16 @@
       background-image: url('../img/it/iiit.png');
     }
 
+
+    .img4 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/Desktop/it.png');
+    }
+
+
 }
 
 
@@ -591,8 +601,11 @@
 
     <div id="container" class="view jarallax" data-jarallax='{"speed": 0.2}'>
       <div class="img1 z-depth-2 h-100   wow fadeInRightBig" data-wow-delay="0" >
+          <div id="" class=" img4  h-100   wow fadeInLeftBig" data-wow-delay="1s" >
+           
         <div class="img2 z-depth-2  h-100   wow fadeInLeftBig"  data-wow-delay="0.5s" > 
           <div id="moveing" class=" img3 moveing h-100   wow fadeInUpBig" data-wow-delay="1s" >
+            </div>
           </div>
         </div>
       </div>

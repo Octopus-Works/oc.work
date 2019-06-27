@@ -403,7 +403,7 @@
                     <strong>Architecture & Interior Design</strong>
                   </p>
                   <p class="grey-text font-small mx-4">
-                    Octopus Interior designers use their knowledge of art and design skills to ....
+                    Architecture is defined as the art  and science of designing buildings and structure....
                     <p class="font-small font-weight-bold custom-primary-text mx-4 mb-0">
                       <a class="custom-primary-text" href="architecture.html">read more</a>
                     </p>

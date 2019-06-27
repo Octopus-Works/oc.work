@@ -85,6 +85,16 @@
       background-image: url('../img/board of director/graphic2.png');
     }
 
+
+    
+    .img4 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('../img/Desktop/chairman letter.png');
+    }
+
 }
 
 
@@ -107,6 +117,8 @@
     <div id="container" class="view jarallax custom-primary"  data-jarallax='{"speed": 0.2}'>
         <div class="img2  h-100   wow fadeInRightBig" data-wow-delay="0" >
           <div id="moveing" class="img1 moveing   h-100   wow fadeInLeftBig"  data-wow-delay="0.5s" > 
+            <div id="moveing" class="img4 moveing   h-100   wow fadeInLeftBig"  data-wow-delay="0.5s" > 
+            </div>
           </div>
         </div>
       <div class="mask ">
