@@ -188,43 +188,33 @@
         
                                                     <!--Grid row-->
                                                     <div class="row">
+
+
+
+
+                                    
+
+
+
+
         
-                                                        <p class="dark-grey-text article">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                                                            enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                                                            sed quia consequuntur magni dolores eos qui ratione voluptatem. </p>
+                                                        <p class="dark-grey-text article">
+                                                          
+                                                            No doubt the journey of a thousand miles begins with a step and IN ORDER TO MAKE OUR WORLD MORE ADVANCED WE HAVE PLEDGED OURSELVES TO A PACT ENFORCED BY) commitment and respect extended by innovation and development FOR A SUPERIOR FUTURE FILLED WITH ACHIEVMENTS AND ORIGINAL IDEAS FOR A NEW INNOVATIVE EXPERTISE SOLUTIONS TO BE UNPARALLELED AT MEETING OUR CLIENTS EXPECTATIONS AND UNDERSTANDING THE EXACT NEEDS THEY REQURE WHEREVER THEY ARE AROUND THE GLOBE,
+                                                            IS ABSETLY OUR NUMBER ONE PRIORITY.
+                                                            OCTOPUS WORKS WAS ESABLISHED ON THE FOUNDATION OF WINNING OUR CLIENTS SATISFACTION AND SUMBIT ALL THE PROJECTS ASSIGNED TO US WITH A PHENOMENAL QUALITY NEVER SEEN BEFORE AND MEETING THE DEADLINE AT THE SAME TIME  
+                                                            THEIR VALUE WILL CONTRIBUTE IN GUIDING OUR EXECUTION PLAN TO BE ON THE TOP OF THIS LINE
+                                                            AT OCTOPUS WORKS WE THRIVE TO PROVIDE OUR SOCIETY WITH HIGH END SERVICES TO IMPROVE OUR SOCIETY IN A MODERN AND A BRAND NEW STYLE
+                                                            AS WE ARE EMPOWERED BY OUR EMLOYEES COMMITMENT AND NEVER ENDING PROFESSIONAL PROGRESS TO MEET THE STANDARDS BEHIND OUR NAME)
+                                                            WE WILL ALWAYS KEEP THE PRICIPLES AND THE VALUES THAT MADE OUR COMPANY EXCEEDS OTHER COMPANIES DEVOTION)
+                                                        </p>
         
-                                                        <blockquote class="blockquote">
-                                                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                                                                erat a ante.</p>
-                                                            <footer class="blockquote-footer">Someone famous in
-                                                                <cite title="Source Title">Source Title</cite>
-                                                            </footer>
-                                                        </blockquote>
-        
-                                                        <p class="dark-grey-text article"> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
-                                                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel
-                                                            eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-                                                            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
         
                                                     </div>
                                                     <!--Grid row-->
         
                                                     <!--Grid row-->
-                                                    <div class="row mb-2 mt-2">
-        
-                                                        <li class="dark-grey-text article list-unstyled">
-                                                            <strong>Nulla volutpat aliquam velit:</strong>
-                                                            <ul>
-                                                                <li>Phasellus iaculis neque</li>
-                                                                <li>Purus sodales ultricies</li>
-                                                                <li>Vestibulum laoreet porttitor sem</li>
-                                                                <li>Ac tristique libero volutpat at</li>
-                                                            </ul>
-                                                        </li>
-        
-                                                    </div>
+
                                                     <!--/Grid column-->
         
                                             </div>

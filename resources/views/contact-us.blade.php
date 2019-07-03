@@ -404,22 +404,20 @@ h2,h5{font-weight:300;}
             <a class="btn-floating custom-primary accent-1">
               <i class="fas fa-map-marker-alt"></i>
             </a>
-            <p>New York, 94126</p>
-            <p class="mb-md-0">United States</p>
+            <p>Damascus</p>
+            <p class="mb-md-0">,Syria</p>
           </div>
           <div class="col-md-4">
             <a class="btn-floating custom-primary accent-1">
               <i class="fas fa-phone"></i>
             </a>
-            <p>+ 01 234 567 89</p>
-            <p class="mb-md-0">Mon - Fri, 8:00-22:00</p>
+            <p>+963 011 612 2155 </p>
           </div>
           <div class="col-md-4">
             <a class="btn-floating custom-primary accent-1">
               <i class="fas fa-envelope"></i>
             </a>
-            <p>info@gmail.com</p>
-            <p class="mb-0">sale@gmail.com</p>
+            <p>info@octopusworks.com</p>
           </div>
         </div>
   

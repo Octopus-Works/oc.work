@@ -257,6 +257,26 @@
                   </div>
                   <!-- Grid column -->
 
+                  <hr class="w-100">
+
+                  <!-- Grid column -->
+                  <div class="col-lg-12 col-md-12 mt-5 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+
+                      <!-- Secion heading -->
+                      <h3 class="mb-5 text-center custom-primary-text title font-weight-bold wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+                          <strong>Why Octopus?</strong>
+                          <hr class="w-25">
+
+                      </h3>
+                      <!-- Description -->
+                      <p class="dark-grey-text ">1. A GROUP OF TALENTED, PATIONATE AND MULTI-TASKED PEOPLE WHO MAKES A GREAT WELL KNOWLEDGED TEAM.</p>
+                      <p  class="dark-grey-text ">2. WE ARE TRAINED TO SEE AND THINK DIFFERNETLY, THEREFORE YOU WILL ALWAYS SEE A NEW UNIQUE AND CREATIVE VISION.</p>
+                      <p  class="dark-grey-text ">3. WE ARE TRAINED TO SEE AND THINK DIFFERNETLY, THEREFORE YOU WILL ALWAYS SEE A NEW UNIQUE AND CREATIVE VISION.</p>
+
+                  </div>
+                  <!-- Grid column -->
+
+
 
               </div>
 
@@ -266,7 +286,7 @@
               <div class="row pt-4 mt-5 mb-5">
 
                 <!-- Grid column -->
-                <div class="col-lg-12 col-md-12 wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+                <div class="col-lg-12 col-md-12 wow fadeIn mb-5" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
 
                     <!-- Secion heading -->
                     <h3 class="mb-5 text-center custom-primary-text title font-weight-bold wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">

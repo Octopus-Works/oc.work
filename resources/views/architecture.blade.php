@@ -61,6 +61,13 @@
     }
 
 
+    .img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header, .video-fluid {
+    max-width: 100%;
+    width:-webkit-fill-available !important;
+    height: auto;
+}
+
+
     .software-lp .rgba-gradient {
       background: -webkit-gradient(linear, 45deg, from(#68d0ff), to(#453cf5));
       background: -webkit-linear-gradient(45deg, #68d0ff, #453cf5 100%);

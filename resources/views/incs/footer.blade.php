@@ -52,56 +52,14 @@
         <!-- First column -->
         <div class="col-md-3 col-lg-4 col-xl-3 mb-5">
           <h6 class="spacing font-weight-bold">
-            <strong>Company name</strong>
+            <strong>Octopus Works</strong>
           </h6>
-          <hr class="custom-primary custom-primary-text mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet,
-            consectetur
-            adipisicing elit.</p>
+          <hr class="custom-primary custom-primary-text mb-4 mt-0 d-inline-block mx-auto" style="width: 110px;">
+          <p> </p>
         </div>
         <!-- First column -->
 
-        <!-- Second column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-5">
-          <h6 class="spacing font-weight-bold">
-            <strong>Products</strong>
-          </h6>
-          <hr class="custom-primary custom-primary-text mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <a href="#!">MDBootstrap</a>
-          </p>
-          <p>
-            <a href="#!">MDWordPress</a>
-          </p>
-          <p>
-            <a href="#!">BrandFlow</a>
-          </p>
-          <p>
-            <a href="#!">Bootstrap Angular</a>
-          </p>
-        </div>
-        <!-- Second column -->
 
-        <!-- Third column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-5">
-          <h6 class="spacing font-weight-bold">
-            <strong>Useful links</strong>
-          </h6>
-          <hr class="custom-primary custom-primary-text mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <a href="#!">Your Account</a>
-          </p>
-          <p>
-            <a href="#!">Become an Affiliate</a>
-          </p>
-          <p>
-            <a href="#!">Shipping Rates</a>
-          </p>
-          <p>
-            <a href="#!">Help</a>
-          </p>
-        </div>
-        <!-- Third column -->
 
         <!-- Fourth column -->
         <div class="col-md-4 col-lg-3 col-xl-3">
@@ -110,15 +68,37 @@
           </h6>
           <hr class="custom-primary custom-primary-text mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <i class="fas fa-home mr-3"></i>Damascus, Syria</p>
           <p>
-            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <i class="fas fa-envelope mr-3"></i> info@octopusworks.com</p>
           <p>
-            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <i class="fas fa-phone mr-3"></i> +963 011 612 2155 </p>
           <p>
-            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
         </div>
         <!-- Fourth column -->
+
+                <!-- Fourth column -->
+                <div class="col-md-4 col-lg-3 col-xl-3">
+                    <h6 class="spacing font-weight-bold">
+                      <strong>Sections</strong>
+                    </h6>
+                    <hr class="custom-primary custom-primary-text mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p class="text-left">
+                     <a href="{{route('architecture')}}"><i class="fas fa-home mr-3">  </i>Architecture & Interior Design</a>
+                  
+                    <p class="text-left">
+              <a href="{{route('software-engineering')}}"><i class="fas fa-mobile mr-3"> </i>Software Engineering</a>
+ 
+                    </p>
+                    <p class="text-left">
+                   <a href="{{route('visual-production')}}"><i class="fas fa-film mr-3"></i>Visual Proudction</a>
+
+                    </p>
+                  </div>
+                  <!-- Fourth column -->
+
+                  {{-- <a class="dropdown-item {{ Request::routeIs('graphic-design') ? 'active' : '' }}" href="{{route('graphic-design')}}">Graphic Design</a> --}}
+    
 
       </div>
     </div>
